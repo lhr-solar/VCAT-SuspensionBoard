@@ -33675,7 +33675,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "11fc3897-418c-456a-8fd5-75858f7bdad9")
-		(property "Reference" "C25"
+		(property "Reference" "C41"
 			(at 76.2 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33753,27 +33753,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "62490040-1afe-4ec9-9fdd-5ae650351c74")
+			(uuid "fca029c4-b11e-4461-8e39-3111f2da3aab")
 		)
 		(pin "2"
-			(uuid "cfbcadea-96cf-424c-ad91-890e544e6363")
+			(uuid "608e10cb-75b4-4e81-8681-991378cbefb7")
 		)
 		(instances
-			(project ""
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9d9eae1e-c713-4323-9845-a569cff8d5d3"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-			(project "CAN_Transceiver"
-				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
-					(reference "C2")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/963419ad-288c-4ad7-963b-cb6fd15ddb22"
-					(reference "C25")
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/d2e121da-4655-471c-894c-244db72f6066/5cd0492a-8586-4c19-a808-4d3883e80abc"
+					(reference "C41")
 					(unit 1)
 				)
 			)
@@ -33790,7 +33778,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "269c1b14-22dd-4a9f-bc64-46d9c4d23a1e")
-		(property "Reference" "C27"
+		(property "Reference" "C45"
 			(at 194.564 88.646 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33866,27 +33854,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3b0d596f-f884-4807-ad90-b5139a0a7756")
+			(uuid "7212e984-eb48-4e93-9d58-b56b9283db5c")
 		)
 		(pin "2"
-			(uuid "0f0b5e97-daad-483c-a5d0-5d662ddb8640")
+			(uuid "e0ee87b8-e95c-41a9-a79a-dbe77c51de30")
 		)
 		(instances
-			(project ""
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9d9eae1e-c713-4323-9845-a569cff8d5d3"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-			(project "CAN_Transceiver"
-				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
-					(reference "C4")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/963419ad-288c-4ad7-963b-cb6fd15ddb22"
-					(reference "C27")
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/d2e121da-4655-471c-894c-244db72f6066/5cd0492a-8586-4c19-a808-4d3883e80abc"
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -33904,7 +33880,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "418918ed-79a5-4844-a068-77984ff1998e")
-		(property "Reference" "JP1"
+		(property "Reference" "JP2"
 			(at 215.9 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33958,33 +33934,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f1ec1902-e105-4b87-9a53-3c130be47f4d")
+			(uuid "b7774bf7-0b76-4b7f-b74a-cca723e84ee2")
 		)
 		(pin "2"
-			(uuid "3d0c2ea2-acd1-49f7-986a-b378f6b430a0")
+			(uuid "53e3fdbf-7353-4509-b5f1-25fe2841a6fb")
 		)
 		(instances
-			(project ""
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9d9eae1e-c713-4323-9845-a569cff8d5d3"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/81d906df-a099-480a-8398-28a8e913d125"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-			(project "CAN_Transceiver"
-				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/963419ad-288c-4ad7-963b-cb6fd15ddb22"
-					(reference "JP1")
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/d2e121da-4655-471c-894c-244db72f6066/5cd0492a-8586-4c19-a808-4d3883e80abc"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -34001,7 +33959,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7484bcdc-1ddf-4a31-9ac2-deff0b8d2fc5")
-		(property "Reference" "C26"
+		(property "Reference" "C44"
 			(at 88.138 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34079,27 +34037,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "85aa2bda-d2f7-4634-9149-c3a03f575c6e")
+			(uuid "be6e4bf9-78da-4c08-a1ac-5330a629a38e")
 		)
 		(pin "2"
-			(uuid "1e6d57eb-788f-4ab6-9e32-f0227f9fcce7")
+			(uuid "8af6c21c-ee6b-446d-8b7e-adac63f180f3")
 		)
 		(instances
-			(project ""
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9d9eae1e-c713-4323-9845-a569cff8d5d3"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-			(project "CAN_Transceiver"
-				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
-					(reference "C3")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/963419ad-288c-4ad7-963b-cb6fd15ddb22"
-					(reference "C26")
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/d2e121da-4655-471c-894c-244db72f6066/5cd0492a-8586-4c19-a808-4d3883e80abc"
+					(reference "C44")
 					(unit 1)
 				)
 			)
@@ -34116,7 +34062,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8bc6d0f8-90a9-4a3e-bd4c-4f1d37db40e4")
-		(property "Reference" "C24"
+		(property "Reference" "C40"
 			(at 65.278 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34194,33 +34140,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "931d7d00-34c0-432f-b957-5973964ff07a")
+			(uuid "b3d426c9-ceb4-47ad-b7e4-1e41d5351741")
 		)
 		(pin "2"
-			(uuid "a68fbfcf-27e7-4ded-8e8c-d9afa05a2b87")
+			(uuid "23e9d944-65c9-4d2f-b9cc-f8cfc7052d9d")
 		)
 		(instances
-			(project ""
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9d9eae1e-c713-4323-9845-a569cff8d5d3"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/81d906df-a099-480a-8398-28a8e913d125"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project "CAN_Transceiver"
-				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
-					(reference "C1")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/963419ad-288c-4ad7-963b-cb6fd15ddb22"
-					(reference "C24")
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/d2e121da-4655-471c-894c-244db72f6066/5cd0492a-8586-4c19-a808-4d3883e80abc"
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -34237,7 +34165,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d3dc1093-5927-44fd-b183-035a11ec5677")
-		(property "Reference" "R12"
+		(property "Reference" "R26"
 			(at 201.93 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34313,27 +34241,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9bcdf47c-1070-4824-954d-f11fc9f517da")
+			(uuid "dff25c97-2512-4edf-a580-6f477a1030cd")
 		)
 		(pin "2"
-			(uuid "eadbc9ef-015e-416b-b429-cb310da85012")
+			(uuid "19433d41-cd3a-464c-b623-967359940098")
 		)
 		(instances
-			(project "kk36984"
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9d9eae1e-c713-4323-9845-a569cff8d5d3"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-			(project "CAN_Transceiver"
-				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
-					(reference "R2")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/963419ad-288c-4ad7-963b-cb6fd15ddb22"
-					(reference "R12")
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/d2e121da-4655-471c-894c-244db72f6066/5cd0492a-8586-4c19-a808-4d3883e80abc"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -34351,7 +34267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7bbf058-1019-472a-b210-c9dc6eda02c8")
-		(property "Reference" "D6"
+		(property "Reference" "D11"
 			(at 196.85 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34478,30 +34394,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "13cdd691-ca15-475a-aa4d-4c989ce45527")
+			(uuid "90cf64c4-2cca-48ce-a49a-2da3e04ff54c")
 		)
 		(pin "2"
-			(uuid "87f00ac4-f9fd-4b58-b326-8eb61cbae89e")
+			(uuid "098f5a55-77ce-4b46-8970-f9c7bce01018")
 		)
 		(pin "3"
-			(uuid "b0e2adf7-a02b-4ad8-a0aa-e181c8c6489b")
+			(uuid "427ef466-cf88-4f2e-8e31-75296e82c8f2")
 		)
 		(instances
-			(project ""
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9d9eae1e-c713-4323-9845-a569cff8d5d3"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-			(project "CAN_Transceiver"
-				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
-					(reference "D1")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/963419ad-288c-4ad7-963b-cb6fd15ddb22"
-					(reference "D6")
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/d2e121da-4655-471c-894c-244db72f6066/5cd0492a-8586-4c19-a808-4d3883e80abc"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -34519,7 +34423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f525b581-e914-48f3-856d-b707a04117a7")
-		(property "Reference" "IC1"
+		(property "Reference" "IC3"
 			(at 128.27 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34646,45 +34550,33 @@
 			)
 		)
 		(pin "1"
-			(uuid "222d85c9-7fcd-4631-a28f-08cf613da8b8")
+			(uuid "a4c010da-6c1a-4471-9c5b-6133058dcfbe")
 		)
 		(pin "4"
-			(uuid "23dd2ff9-d2a4-4860-b6f6-3dcaf68d823a")
+			(uuid "6ebaf47f-dc45-4bd3-9245-8560f112ae68")
 		)
 		(pin "7"
-			(uuid "ae1a45f4-8169-47eb-ab20-7f3a12cc0739")
+			(uuid "df3df849-ea9f-4ab8-8877-19b33d6932de")
 		)
 		(pin "6"
-			(uuid "28c00350-192e-488d-8eed-1e221a850e3a")
+			(uuid "3b5c3ad3-e7ce-4f0c-b529-85c9c4c5b942")
 		)
 		(pin "2"
-			(uuid "37691bbb-c337-4983-bc9a-05ac6e0366bd")
+			(uuid "746b3a9e-cffd-4d8d-9d79-192bab7bc1ee")
 		)
 		(pin "3"
-			(uuid "3c87ecf4-bb35-4a81-80a2-c831e1b99868")
+			(uuid "5b0b9322-4d61-4dbd-881a-6e58e7173720")
 		)
 		(pin "5"
-			(uuid "6abcd12c-fa9b-4e47-ae0c-626bedaab829")
+			(uuid "4562f554-010e-4949-90f9-6857014efc1f")
 		)
 		(pin "8"
-			(uuid "bda5a424-c010-4a72-ba4f-0982ceea7b46")
+			(uuid "06cfe89a-6d28-465a-95dd-bce1abba91fb")
 		)
 		(instances
-			(project ""
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9d9eae1e-c713-4323-9845-a569cff8d5d3"
-					(reference "IC1")
-					(unit 1)
-				)
-			)
-			(project "CAN_Transceiver"
-				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
-					(reference "IC1")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/963419ad-288c-4ad7-963b-cb6fd15ddb22"
-					(reference "IC1")
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/d2e121da-4655-471c-894c-244db72f6066/5cd0492a-8586-4c19-a808-4d3883e80abc"
+					(reference "IC3")
 					(unit 1)
 				)
 			)
@@ -34701,7 +34593,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f905bbd5-25e3-4518-9a89-c3e959777327")
-		(property "Reference" "R11"
+		(property "Reference" "R24"
 			(at 176.53 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34777,33 +34669,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "86d33648-15d7-4302-99c9-26ba60e42db7")
+			(uuid "e2e514b5-6168-4cb1-8464-e31f03ef9d3c")
 		)
 		(pin "2"
-			(uuid "c60f6f6c-5e75-4ba9-87cd-a842ff79f089")
+			(uuid "3759efd0-e0cf-4d5f-b6fd-e95e3f8fce51")
 		)
 		(instances
-			(project ""
-				(path "/69b823fd-c065-40ff-9bb9-c5835555f3eb/9d9eae1e-c713-4323-9845-a569cff8d5d3"
-					(reference "R22")
-					(unit 1)
-				)
-			)
-			(project ""
-				(path "/81d906df-a099-480a-8398-28a8e913d125"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-			(project "CAN_Transceiver"
-				(path "/a09f9696-80ee-4697-8aaa-225f287b667b"
-					(reference "R1")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/963419ad-288c-4ad7-963b-cb6fd15ddb22"
-					(reference "R11")
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/d2e121da-4655-471c-894c-244db72f6066/5cd0492a-8586-4c19-a808-4d3883e80abc"
+					(reference "R24")
 					(unit 1)
 				)
 			)

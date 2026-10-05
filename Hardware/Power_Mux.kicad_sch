@@ -1873,20 +1873,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "cdea4d5c-14cc-422b-b60c-9f4ffab73794")
+			(uuid "33388a86-fbae-4ee0-ba34-d4af941898fd")
 		)
 		(pin "2"
-			(uuid "93a9476c-00b6-4ffd-89a3-c4e89f8f0675")
+			(uuid "8ea663de-2e3a-46c6-87f0-1e490f257e0e")
 		)
 		(instances
-			(project "power-mux-block"
-				(path "/c8207045-8aef-4538-bcc4-1e380c549c2c"
-					(reference "C4")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/6b03429d-de98-4db1-a7d4-5458196d4903"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/64ef68fa-3e19-40cc-9fb9-67d60389f594"
 					(reference "C39")
 					(unit 1)
 				)
@@ -1969,20 +1963,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "b445130a-0430-46a6-8dbf-c0b321c14d9a")
+			(uuid "cdc84de9-4a8b-467c-b6a6-43785d40e310")
 		)
 		(pin "2"
-			(uuid "32f29333-9e92-4270-a61d-dc208db62db0")
+			(uuid "e0a2feb2-e713-4e99-8660-8239318f2df5")
 		)
 		(instances
-			(project "power-mux-block"
-				(path "/c8207045-8aef-4538-bcc4-1e380c549c2c"
-					(reference "R1")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/6b03429d-de98-4db1-a7d4-5458196d4903"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/64ef68fa-3e19-40cc-9fb9-67d60389f594"
 					(reference "R21")
 					(unit 1)
 				)
@@ -2078,20 +2066,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "15e06278-345c-4cda-89aa-1c631a524a93")
+			(uuid "5da95ff1-ebca-4517-bbbe-617c03c39373")
 		)
 		(pin "2"
-			(uuid "ab8112d7-4137-4217-a9cc-9d8333976c27")
+			(uuid "a0dae34e-7a76-4065-9873-e416dd70611a")
 		)
 		(instances
-			(project "power-mux-block"
-				(path "/c8207045-8aef-4538-bcc4-1e380c549c2c"
-					(reference "C1")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/6b03429d-de98-4db1-a7d4-5458196d4903"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/64ef68fa-3e19-40cc-9fb9-67d60389f594"
 					(reference "C36")
 					(unit 1)
 				)
@@ -2223,38 +2205,32 @@
 			)
 		)
 		(pin "6"
-			(uuid "1d71c282-9f81-4cee-abb9-86298b56910c")
+			(uuid "51a3f3c9-7bd9-4ce2-9ab1-7d9803908868")
 		)
 		(pin "3"
-			(uuid "7e0f054c-c270-473f-aa7d-2dfc52c79893")
+			(uuid "e3ab3e0a-1c42-4164-8cd6-65586056117a")
 		)
 		(pin "8"
-			(uuid "c52b7078-88bb-4d5d-aa87-c860d18b93de")
+			(uuid "52b1c746-8491-45cf-bb99-b486e5851a74")
 		)
 		(pin "7"
-			(uuid "dde996d6-302b-482b-b103-33bed2f0833e")
+			(uuid "1e344482-af4d-46f3-b20f-612a2f438ce4")
 		)
 		(pin "5"
-			(uuid "f16d3c24-a256-4973-8aaa-1339966c5b33")
+			(uuid "55f11c3a-ca4f-42f5-9115-b5861ea553fe")
 		)
 		(pin "2"
-			(uuid "f3f509c2-d3e6-47a0-8366-eea0c15e95c6")
+			(uuid "d5fb8064-e72c-4ae0-8527-f20951efe384")
 		)
 		(pin "4"
-			(uuid "fb25e10c-f87d-4c47-83b1-e7bcdc4a7a3a")
+			(uuid "9ec99779-f174-46e8-a9fe-d9fe16148bb7")
 		)
 		(pin "1"
-			(uuid "15a92dfe-e525-4776-b9da-f1dd7bbc352d")
+			(uuid "3f32f28e-5b48-4004-bae6-03150b57d382")
 		)
 		(instances
-			(project ""
-				(path "/c8207045-8aef-4538-bcc4-1e380c549c2c"
-					(reference "U1")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/6b03429d-de98-4db1-a7d4-5458196d4903"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/64ef68fa-3e19-40cc-9fb9-67d60389f594"
 					(reference "U5")
 					(unit 1)
 				)
@@ -2350,20 +2326,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "e41339b2-0b78-4afa-a522-54a4100e50d6")
+			(uuid "83c28c01-e65b-478d-9be6-0a562ec35f20")
 		)
 		(pin "2"
-			(uuid "57b62f0e-165c-49b8-9465-a7f35c89d1a2")
+			(uuid "bd3a1ffb-c801-4f98-945f-831d407bf0c7")
 		)
 		(instances
-			(project "power-mux-block"
-				(path "/c8207045-8aef-4538-bcc4-1e380c549c2c"
-					(reference "C3")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/6b03429d-de98-4db1-a7d4-5458196d4903"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/64ef68fa-3e19-40cc-9fb9-67d60389f594"
 					(reference "C38")
 					(unit 1)
 				)
@@ -2459,20 +2429,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "8a22e724-4c34-405a-838f-8e503fe5692a")
+			(uuid "bfdfa742-ca58-4403-a277-7d690c41b73e")
 		)
 		(pin "2"
-			(uuid "c01c5550-dc6e-4646-8700-9115763e3ac0")
+			(uuid "77153f0f-9e9e-493b-bb30-e9ce0fc802c3")
 		)
 		(instances
-			(project "power-mux-block"
-				(path "/c8207045-8aef-4538-bcc4-1e380c549c2c"
-					(reference "C2")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/6b03429d-de98-4db1-a7d4-5458196d4903"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/64ef68fa-3e19-40cc-9fb9-67d60389f594"
 					(reference "C37")
 					(unit 1)
 				)

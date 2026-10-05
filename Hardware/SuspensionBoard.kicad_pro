@@ -429,7 +429,7 @@
         "uuid": "f9dc491a-b8c6-4623-9728-13837ac4bba3"
       }
     ],
-    "used_designators": "TP_3.3V1,#FLG1-2,J1-2,J4,#PWR1-25,#PWR27,D1-4,C1-12,C22-25,C36-39,FB1,U1-3,U5,TH1,F1,L1,R1-3,R21-23",
+    "used_designators": "JP2,TP1-4,Q1-2,#PWR1-30,D1-4,D9-12,U1-6,C1-12,C16-25,C29-45,FB1,#FLG1-4,IC2-3,J1-2,J4-5,J7,TH1,F1-2,L1,TP_3.3V1,R1-3,R9-10,R15-27",
     "variants": []
   },
   "sheets": [
@@ -442,28 +442,40 @@
       "48PinMCU"
     ],
     [
-      "4c2b5130-63c3-4340-901f-02abb48183bd",
+      "71833e86-1bf8-49c2-bd28-78b5a67f29b8",
       "12VBuck"
     ],
     [
-      "a1fe2ce6-9e48-4932-bd91-e78dafd4ecd8",
+      "7da03bba-6e89-4676-b538-830a2c925006",
       "LDO"
-    ],
-    [
-      "963419ad-288c-4ad7-963b-cb6fd15ddb22",
-      "CAN_Transceiver"
     ],
     [
       "607ef794-a8dc-49c5-8eea-be78a8201dda",
       "USB-C_Connector"
     ],
     [
-      "cb764a8a-bbe5-4ec6-afb9-bb21a3eb2a4f",
+      "9f68e68b-217f-480f-8087-626c4b14676f",
       "PowerProtection"
     ],
     [
-      "6b03429d-de98-4db1-a7d4-5458196d4903",
+      "64ef68fa-3e19-40cc-9fb9-67d60389f594",
       "Power_Mux"
+    ],
+    [
+      "bb9a0353-c4c7-4944-b892-c85c279a5c68",
+      "power_Rail"
+    ],
+    [
+      "272dd8ad-a48a-49db-81ff-e09e73685188",
+      "LinPot"
+    ],
+    [
+      "d2e121da-4655-471c-894c-244db72f6066",
+      "CAN_Bus"
+    ],
+    [
+      "5cd0492a-8586-4c19-a808-4d3883e80abc",
+      "CAN_Transceiver"
     ]
   ],
   "text_variables": {},
