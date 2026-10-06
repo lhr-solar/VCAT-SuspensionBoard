@@ -2165,20 +2165,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "b38703e6-2a93-4c75-901a-3d4c44a0ef75")
+			(uuid "2c306daf-cba5-43c8-9273-8027a163a948")
 		)
 		(pin "2"
-			(uuid "490d9827-a08f-4ff3-8a4d-44353f0125b2")
+			(uuid "5c8e735d-4fee-4c37-b1e7-0eb9927e23e3")
 		)
 		(instances
-			(project "usb_conn"
-				(path "/64d5c21e-b85c-41ec-b08c-3556f1a0ecf2"
-					(reference "R1")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/607ef794-a8dc-49c5-8eea-be78a8201dda"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/329acb82-e278-4114-ae2d-06a45b64bcf5"
 					(reference "R13")
 					(unit 1)
 				)
@@ -2272,20 +2266,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa534472-9dd0-4838-8e65-6de41aa77ce7")
+			(uuid "e010860c-3415-45db-bf56-a94b4b618572")
 		)
 		(pin "2"
-			(uuid "149f7b0b-6932-404c-8d1a-5eb7b9c7a970")
+			(uuid "d0a59fb1-c612-49ac-980b-e3eab49b0827")
 		)
 		(instances
-			(project "usb_conn"
-				(path "/64d5c21e-b85c-41ec-b08c-3556f1a0ecf2"
-					(reference "R2")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/607ef794-a8dc-49c5-8eea-be78a8201dda"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/329acb82-e278-4114-ae2d-06a45b64bcf5"
 					(reference "R14")
 					(unit 1)
 				)
@@ -2380,74 +2368,68 @@
 			)
 		)
 		(pin "B9"
-			(uuid "395bce07-9bbf-45e7-a7fe-f680404a7bc5")
+			(uuid "5b222db0-10f0-4ba6-b243-ce390ab39222")
 		)
 		(pin "B4"
-			(uuid "cd0c0508-ba0f-46b9-b9a2-5746de633160")
+			(uuid "5afb3b24-2a70-47ac-87f0-f136ed7a5bda")
 		)
 		(pin "B7"
-			(uuid "cd924928-8359-4432-8e7a-33af4ad7a123")
+			(uuid "4b7c734a-b2d6-43d7-afc2-5aa4d68b8308")
 		)
 		(pin "A6"
-			(uuid "6e525721-8d9c-42b8-a11d-ed67a53f272f")
+			(uuid "f9d04ae4-71ff-45bd-81c9-08b99c186e5d")
 		)
 		(pin "B1"
-			(uuid "994a70ab-3e16-437a-9516-625beb91318d")
+			(uuid "b82d4d65-d4de-44ea-9dd9-208e6bd46ece")
 		)
 		(pin "B6"
-			(uuid "086b8679-9573-4c62-b0f3-2ac5444ddca9")
+			(uuid "b63328f1-a330-4c59-a455-fe20b29e92d0")
 		)
 		(pin "A7"
-			(uuid "35ab6817-43c7-4811-97d5-4284f5f93a2e")
+			(uuid "65b1bb75-d973-4a34-b56a-d5ee8f9b5530")
 		)
 		(pin "A9"
-			(uuid "b52cf569-0b33-4de9-ab76-0477068bdebb")
+			(uuid "a2da7602-500a-44ff-a3a0-d01d7d1f5e54")
 		)
 		(pin "B5"
-			(uuid "a4f9516f-c240-4ba2-8abb-416dc9b788a4")
+			(uuid "db07f843-5bfc-436d-a4d7-30189dc1c77a")
 		)
 		(pin "B8"
-			(uuid "5d712ff7-a5a1-4d0e-a3f2-bf681fb48bdc")
+			(uuid "af3a09a8-5ef1-4ba2-976a-21486f9c985a")
 		)
 		(pin "A12"
-			(uuid "185d18f2-56d7-4eae-8021-117b54ba0a06")
+			(uuid "58ac0e05-79b0-4a0b-93a6-4bf6cad3a712")
 		)
 		(pin "A8"
-			(uuid "47208bb2-28e0-4d24-beaf-8f3ed96268c1")
+			(uuid "cb9d2852-d9e0-4148-90dd-37c640915058")
 		)
 		(pin "A1"
-			(uuid "f627eaa9-8a8e-471b-978e-bb62ae4b6521")
+			(uuid "ef8e87a3-d810-456e-b277-2a7357003c10")
 		)
 		(pin "A4"
-			(uuid "bb66b512-60f8-4860-a721-9f8949bde2e6")
+			(uuid "60fad561-db91-4e04-9015-35fdff5262a8")
 		)
 		(pin "A5"
-			(uuid "38cb31ca-5cfc-4995-9775-248431ac939b")
+			(uuid "8e4d4204-8035-4503-bd1a-7183a7a98177")
 		)
 		(pin "S4"
-			(uuid "82d035c4-ac54-4a2e-93a8-47b977772b8a")
+			(uuid "58efbbf0-7244-4006-8500-f5c0cc67d6aa")
 		)
 		(pin "S1"
-			(uuid "aef86434-3f65-477c-bd84-8ad59a6455fd")
+			(uuid "d8a6f5b1-8344-4148-9ece-b8b3a956f3a9")
 		)
 		(pin "B12"
-			(uuid "0f5c20ef-f9eb-4da7-9d08-35cff07061be")
+			(uuid "b7e0ad7c-6566-401d-b0b4-d4a7e5bcf7af")
 		)
 		(pin "S3"
-			(uuid "ff7a5148-f669-46ba-ab4e-4144acde1cc6")
+			(uuid "e01d5e54-1a24-47f3-93da-a56398ca0917")
 		)
 		(pin "S2"
-			(uuid "6c7f23cd-67ab-488e-bc40-499c5e2da985")
+			(uuid "2942013c-352d-4467-ac17-0fb2d8a9f350")
 		)
 		(instances
-			(project "usb_conn"
-				(path "/64d5c21e-b85c-41ec-b08c-3556f1a0ecf2"
-					(reference "J1")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/607ef794-a8dc-49c5-8eea-be78a8201dda"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/329acb82-e278-4114-ae2d-06a45b64bcf5"
 					(reference "J6")
 					(unit 1)
 				)
@@ -2522,17 +2504,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "973237f8-bc6a-4ed7-9683-7a93c8bc746c")
+			(uuid "434424d2-c36f-4c72-a0dd-71449e3e2fc4")
 		)
 		(instances
-			(project "usb_conn"
-				(path "/64d5c21e-b85c-41ec-b08c-3556f1a0ecf2"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/607ef794-a8dc-49c5-8eea-be78a8201dda"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/329acb82-e278-4114-ae2d-06a45b64bcf5"
 					(reference "#FLG05")
 					(unit 1)
 				)
@@ -2626,20 +2602,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "b8e2f111-c860-4cc0-9990-ef644527661a")
+			(uuid "71358800-8134-4868-8742-a4db7d17a107")
 		)
 		(pin "1"
-			(uuid "bff90740-ea5c-4adc-908e-7fda935954bc")
+			(uuid "3f1a1299-193e-4fd3-a1cb-d6576067a2c6")
 		)
 		(instances
-			(project "usb_conn"
-				(path "/64d5c21e-b85c-41ec-b08c-3556f1a0ecf2"
-					(reference "D1")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/607ef794-a8dc-49c5-8eea-be78a8201dda"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/329acb82-e278-4114-ae2d-06a45b64bcf5"
 					(reference "D7")
 					(unit 1)
 				)
@@ -2735,20 +2705,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "876b4e5c-87f3-417c-8bd4-ed7bf469b5bc")
+			(uuid "d36af0e6-5814-4271-9289-9b3ef0000902")
 		)
 		(pin "2"
-			(uuid "2b3a3369-ad2c-4383-a613-de5f0fabd084")
+			(uuid "e2004b52-ea1a-489b-9de6-dd63596aee98")
 		)
 		(instances
-			(project "usb_conn"
-				(path "/64d5c21e-b85c-41ec-b08c-3556f1a0ecf2"
-					(reference "C1")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/607ef794-a8dc-49c5-8eea-be78a8201dda"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/329acb82-e278-4114-ae2d-06a45b64bcf5"
 					(reference "C28")
 					(unit 1)
 				)
@@ -2845,23 +2809,17 @@
 			)
 		)
 		(pin "3"
-			(uuid "ad39412d-f2f5-4127-9de4-176d5105cee6")
+			(uuid "f2d80e92-5f77-493e-b775-73675be9d8cf")
 		)
 		(pin "1"
-			(uuid "00d13f51-36e4-4d90-a022-66d8dadcbff1")
+			(uuid "71e6a343-5529-4d54-8978-5d6701e55953")
 		)
 		(pin "2"
-			(uuid "e75dbdb8-46f6-49b5-b6cc-de9cebd6ae13")
+			(uuid "ca287a28-0fbf-468b-8be0-40b945c01abd")
 		)
 		(instances
-			(project "usb_conn"
-				(path "/64d5c21e-b85c-41ec-b08c-3556f1a0ecf2"
-					(reference "D2")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/607ef794-a8dc-49c5-8eea-be78a8201dda"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/329acb82-e278-4114-ae2d-06a45b64bcf5"
 					(reference "D8")
 					(unit 1)
 				)

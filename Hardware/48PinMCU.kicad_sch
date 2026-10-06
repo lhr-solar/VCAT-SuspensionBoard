@@ -54848,20 +54848,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "3ddc013f-628c-4b5e-841a-5cfd9aacb0dd")
+			(uuid "73b70a35-17dc-46ff-af6c-1a03f6695bbd")
 		)
 		(pin "2"
-			(uuid "cdbfa9e3-7e02-4d5c-876b-94e359f74db9")
+			(uuid "697f0d41-1b3b-46b6-94a6-1d8eda530f49")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "C9")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "C9")
 					(unit 1)
 				)
@@ -55012,20 +55006,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "ebb08aee-3038-4239-9437-2d1494920a25")
+			(uuid "5a0fbe7c-cf1a-49b9-a749-2e7388477a5f")
 		)
 		(pin "1"
-			(uuid "1d99468e-b1d4-4936-bef5-dc1403151124")
+			(uuid "40bc0e2d-67b1-48e6-8d4a-e92bc3220050")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "R3")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "R3")
 					(unit 1)
 				)
@@ -55119,20 +55107,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "3f50a61f-f9a7-4552-859f-75c1abc9e8cd")
+			(uuid "7d1febeb-e4e8-44f8-a4aa-a712bfe958cb")
 		)
 		(pin "1"
-			(uuid "d882d7d0-39c3-47ae-be3d-65cd12ee6596")
+			(uuid "e0a93ae6-03db-4653-8cc9-1547b2032e93")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "Y1")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "Y1")
 					(unit 1)
 				)
@@ -55280,20 +55262,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "966c97db-192b-48a9-8f38-29945ac12be0")
+			(uuid "2ce0a833-d542-4fad-be99-ccf2e7e4abb3")
 		)
 		(pin "2"
-			(uuid "a185133a-535c-4a08-8561-a37be58a9c98")
+			(uuid "6023a39c-5bf6-4e94-bd4e-3e1a902df862")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "R2")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "R2")
 					(unit 1)
 				)
@@ -55412,20 +55388,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "f50a2b78-b8a6-4976-8dad-82f7be4eabbb")
+			(uuid "6ae241be-fd0f-4749-b72b-61b0c2ce3a21")
 		)
 		(pin "2"
-			(uuid "032e23ba-99c0-4a89-8bec-0d7c5e122307")
+			(uuid "0debc8f3-0fc2-4981-9d3d-40426dd43512")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "D2")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "D2")
 					(unit 1)
 				)
@@ -55523,158 +55493,152 @@
 			)
 		)
 		(pin "36"
-			(uuid "068ee0b6-788f-465a-9dd5-934b000aa228")
+			(uuid "db3b0b69-3c41-42f0-9d52-057634994798")
 		)
 		(pin "34"
-			(uuid "2efdf0a3-27a8-40d9-8cae-89dca1057fb3")
+			(uuid "938860de-815f-4504-858d-aa9b6604b73b")
 		)
 		(pin "37"
-			(uuid "02b0c818-4341-4908-829d-be528250d344")
+			(uuid "6cfd9d9f-dd8f-4ad7-a5b5-871c64e7dacb")
 		)
 		(pin "42"
-			(uuid "7ab58d38-ee8b-4778-8f7d-6880a9c24c16")
+			(uuid "98ae5f65-6ba8-40ac-b691-f7fd55bc3cd5")
 		)
 		(pin "40"
-			(uuid "f34f3240-97e4-4919-9f39-1198cd6b353c")
+			(uuid "ad8267bd-47ae-4a3e-8ce1-574753dd5ad1")
 		)
 		(pin "32"
-			(uuid "7f3571f7-7bcb-49cf-8b12-01a80d487451")
+			(uuid "461170d6-03d3-4616-a792-8a04d5fe5b1e")
 		)
 		(pin "39"
-			(uuid "4a3db9c0-ffc5-4f4a-a84f-dab7e0e47560")
+			(uuid "db514152-1e6e-4449-a195-2a067f83554c")
 		)
 		(pin "46"
-			(uuid "30e040a6-cf41-43ad-96a9-8b5cd34f43f2")
+			(uuid "2671f3a0-4820-46a3-9bd5-d0cbe7df3a8f")
 		)
 		(pin "33"
-			(uuid "0ed9689f-80ea-4a30-9683-7ca51f318f33")
+			(uuid "c909ba52-e62c-49af-94ec-5c367fd66af4")
 		)
 		(pin "31"
-			(uuid "1041b76d-1ba6-420f-bbdd-ce271e2521fb")
+			(uuid "78668c02-165c-4243-9cbb-37e557cf09ac")
 		)
 		(pin "41"
-			(uuid "309cf7e6-033f-4515-bcb3-8d9a6da5c705")
+			(uuid "b7485936-2edc-4625-8bff-517f93fa433e")
 		)
 		(pin "47"
-			(uuid "ba70b393-4a4d-4cbc-b957-d4c95afc0444")
+			(uuid "bf1d703f-2d30-4cdf-8fbd-96a9c75ffe26")
 		)
 		(pin "45"
-			(uuid "47e1af1b-2436-44c8-acbd-2e8ea4a0ac48")
+			(uuid "4446da41-3334-4be7-9327-691d46624691")
 		)
 		(pin "44"
-			(uuid "416d1b5e-8ebb-47ab-9a37-b8a6594fa7fa")
+			(uuid "cb945566-7da0-4348-ac57-1f71ca033b53")
 		)
 		(pin "35"
-			(uuid "2057eda9-3639-45c1-b67b-59d20bc4ad23")
+			(uuid "487bbd15-1c7a-4b39-b1fb-274196d4cbbc")
 		)
 		(pin "38"
-			(uuid "cc82c25f-7c41-46cf-97e0-91c085a1806b")
+			(uuid "fcf87d4d-be51-4337-85a3-6b4b9df5768c")
 		)
 		(pin "43"
-			(uuid "cb09c893-dce4-494e-9a59-55daf350e98a")
+			(uuid "bfe6323f-1fff-4568-b3c1-d7748e6d12d3")
 		)
 		(pin "48"
-			(uuid "2db3b8c0-15fa-430d-9e8d-8f8928c3f366")
+			(uuid "ad5cbca4-5239-4d82-9221-bff3c6684279")
 		)
 		(pin "5"
-			(uuid "a855c5f1-de3c-4d93-898d-982a75aefaa8")
+			(uuid "c757cc8f-2059-42bb-a38c-70cc7ee4f42e")
 		)
 		(pin "12"
-			(uuid "31b88ad1-a422-4aea-b3e5-a02c8660773a")
+			(uuid "755ea7cd-e7bb-43cd-ab8a-78f7bf062435")
 		)
 		(pin "16"
-			(uuid "b8c3d91b-f48f-483b-a196-380d75531d64")
+			(uuid "6cc7e796-e20c-4570-945f-8b1f7b915592")
 		)
 		(pin "18"
-			(uuid "10a0429c-224f-42d8-9267-ba7e00b0b8df")
+			(uuid "6faf1428-5bb2-4160-8339-05dbd0cf9f15")
 		)
 		(pin "21"
-			(uuid "1713ba1f-6750-4abc-898f-4e8c8325caed")
+			(uuid "bff4c6c7-9b34-4714-bc5e-9f34f93e4063")
 		)
 		(pin "22"
-			(uuid "ada4f63a-799d-4d05-9b7c-ad2d3cde5092")
+			(uuid "3750192f-3955-4a46-b3ba-23e50766c08a")
 		)
 		(pin "8"
-			(uuid "78c2695b-11bb-4008-a99a-adba2a4f3876")
+			(uuid "60e65b8e-ab2c-489d-a382-5641e54d9bba")
 		)
 		(pin "20"
-			(uuid "43d1a489-8998-4e20-a20c-75bec533bece")
+			(uuid "fabfcca8-3769-4ab6-b237-8758816669a2")
 		)
 		(pin "13"
-			(uuid "35e9cff8-4031-4e3f-b545-5c4244a7a1da")
+			(uuid "afd675d9-665f-4d13-8e85-3378e70f3e5b")
 		)
 		(pin "23"
-			(uuid "cc722c67-2ff3-4392-b69d-4046598ac848")
+			(uuid "2994c510-b418-44fb-aa6a-b4040cbb5b92")
 		)
 		(pin "24"
-			(uuid "b5de5770-770a-4a26-b25d-4d43e1e30e20")
+			(uuid "1b8e0286-2f29-489b-b87d-77d668d0b0e8")
 		)
 		(pin "9"
-			(uuid "01ca50f8-8a6b-44a7-b659-93182ebabc21")
+			(uuid "382cb08c-1558-4d84-a4fc-c198b2008401")
 		)
 		(pin "4"
-			(uuid "436f142d-e688-4120-acaf-6c4ba88969ae")
+			(uuid "cdb00850-41bf-4e22-8143-c620a0230e4f")
 		)
 		(pin "1"
-			(uuid "9620e0a8-d5a1-4999-b44f-2cba2e7dee65")
+			(uuid "7dc587eb-754f-4095-9071-a2e663b3efdf")
 		)
 		(pin "3"
-			(uuid "b40ef1cd-e605-401c-937b-21d9878f582b")
+			(uuid "92f7f073-8aee-44ea-a7d8-257408a0cf5e")
 		)
 		(pin "6"
-			(uuid "fcd4d7ea-bca4-49c3-97fb-1700574cf86d")
+			(uuid "3bdb601e-dd7e-411c-bd14-3c194b1389dc")
 		)
 		(pin "11"
-			(uuid "9e20ba08-4467-498a-9233-08111842306e")
+			(uuid "b3ef6d27-8940-49e8-8af7-b9794837cf27")
 		)
 		(pin "14"
-			(uuid "24ac1e45-0844-48b9-b3d1-a6a362b847ce")
+			(uuid "de45a2bd-7954-4768-b5f8-66654742dd23")
 		)
 		(pin "2"
-			(uuid "625b63de-3fe1-4a58-afc1-4aeab53e4fdf")
+			(uuid "b4a129cc-3709-4be5-8410-dc55ab1b32ac")
 		)
 		(pin "7"
-			(uuid "4d53bcb3-0fdb-45ba-b3a5-6fce3c09a378")
+			(uuid "f8c15b75-3669-4d4f-9ca7-bfa0d1a0928b")
 		)
 		(pin "10"
-			(uuid "f50af3d4-4882-4009-9c3a-17fbf531d41f")
+			(uuid "74164640-9fd4-42b9-a3ca-5857aceed527")
 		)
 		(pin "15"
-			(uuid "eecfab36-5744-4ebb-9819-fcb202851cce")
+			(uuid "96eaa177-f880-48ae-a06a-94abfcbe1f8f")
 		)
 		(pin "17"
-			(uuid "dd328434-4b0f-44e9-a5fa-0a2b0621325c")
+			(uuid "47d614a8-1a70-4935-9061-2e59ee58955a")
 		)
 		(pin "19"
-			(uuid "72f8a4cb-edeb-4270-a14d-1f19c978c059")
+			(uuid "16199298-346b-4f9f-9b4e-cab9d8caaeea")
 		)
 		(pin "25"
-			(uuid "5c6efb23-12c6-490a-b81a-c360f79dd4a5")
+			(uuid "6fef9c95-32fc-462f-94e6-dd23d7882af5")
 		)
 		(pin "26"
-			(uuid "cf7bfb11-012d-448f-8961-01fb0c4b5499")
+			(uuid "75a432c3-9aa5-425f-bb0b-a3de2259d09e")
 		)
 		(pin "27"
-			(uuid "4dad05a3-4836-4354-871d-947f6df6e89e")
+			(uuid "53d6044c-668b-42db-83fd-417cddd33af4")
 		)
 		(pin "28"
-			(uuid "1989c1bc-0661-4678-9e6b-cb3b53b53c39")
+			(uuid "3d1ad8ce-99b0-4d58-bb38-79c919cd83e4")
 		)
 		(pin "29"
-			(uuid "283beb1d-7e3e-4b92-bd4b-e1efc6ad9443")
+			(uuid "79060c8c-b72a-4f81-a5a7-ec2f2366567e")
 		)
 		(pin "30"
-			(uuid "f8fa8b4e-7bbe-4155-8e39-594e44fe6309")
+			(uuid "ce94bfbf-c162-4b43-a697-abcd2a874203")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "U1")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "U1")
 					(unit 1)
 				)
@@ -55779,26 +55743,20 @@
 			)
 		)
 		(pin "2"
-			(uuid "4abb4abc-77d0-4c5b-b840-555354e46c5e")
+			(uuid "966e8285-1e39-4a63-beaf-b61801f2cfcc")
 		)
 		(pin "1"
-			(uuid "c5147aaa-946e-4f0e-bc73-d63c286d76cb")
+			(uuid "7883b851-4e74-4378-8f77-ef5912033f40")
 		)
 		(pin "4"
-			(uuid "d22caeb3-5123-48b0-b2a4-091ba2e5cfea")
+			(uuid "36565b05-0a2c-429d-9d8f-ceb16e9541a5")
 		)
 		(pin "3"
-			(uuid "2b9c2ebb-e20f-41f9-914f-1bbb3b7f1c1d")
+			(uuid "cb5eeaf4-f64c-46a5-b67d-c27b7557d4bc")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "J1")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "J1")
 					(unit 1)
 				)
@@ -55945,20 +55903,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "8caf6279-406f-43af-99e2-311bbb61775f")
+			(uuid "21e61506-4a22-442b-8f86-f1d73f472376")
 		)
 		(pin "2"
-			(uuid "606cadc7-d348-4436-b636-7076f56f273d")
+			(uuid "a427d7cb-0b1b-403c-89f7-219ebd6c9f7d")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "C14")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "C14")
 					(unit 1)
 				)
@@ -56053,20 +56005,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "45a60ef5-df61-4464-8567-df46d602c5f5")
+			(uuid "962e608d-6fab-4ba1-b8ee-32c04f0e010f")
 		)
 		(pin "2"
-			(uuid "240cc3b6-8482-438d-af6e-3d1499202e94")
+			(uuid "f6ce58aa-3957-4858-a688-3e45c82f195c")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "FB2")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "FB2")
 					(unit 1)
 				)
@@ -56214,20 +56160,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "15736e77-09dc-4015-b21d-06828ea54bbe")
+			(uuid "3acfb575-9a88-4b93-9c25-3fc134b3b200")
 		)
 		(pin "2"
-			(uuid "d3e9cf72-41bc-4af4-9119-cbfeac58a487")
+			(uuid "52cb770d-d4cc-47dc-a936-680d4b076414")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "C7")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "C7")
 					(unit 1)
 				)
@@ -56374,20 +56314,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "b79b3c19-8cb9-42ea-b990-8c8ab117df7b")
+			(uuid "fff087da-6cdb-4660-b767-7777f6f2eddf")
 		)
 		(pin "2"
-			(uuid "f8a82df4-1cc4-4a54-b85c-b922acc42f2c")
+			(uuid "94448264-1c97-45aa-9a68-d513fc7a98c5")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "C6")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "C6")
 					(unit 1)
 				)
@@ -56535,20 +56469,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "9139708c-d4f3-4719-b997-fd101d11b448")
+			(uuid "bd99961a-3e37-4a81-bee5-9cab5f5e8fcf")
 		)
 		(pin "2"
-			(uuid "2dc39049-bb08-4b3c-9770-cf397e4a6d7f")
+			(uuid "758b5f69-093e-41cb-a8ed-5ea7ecab024c")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "C3")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "C3")
 					(unit 1)
 				)
@@ -56645,20 +56573,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "a39f2d0d-6c00-40fb-abea-84948923a126")
+			(uuid "d51dbf0f-2736-4c71-aa27-a378c4614a55")
 		)
 		(pin "2"
-			(uuid "f0c664d4-e6a6-4a4a-b64f-e1d11f0b5e86")
+			(uuid "529c4418-6ae5-4b43-a866-6f79cdf35f78")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "C15")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "C15")
 					(unit 1)
 				)
@@ -56805,20 +56727,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "392598c1-9c4c-4a2e-b6bf-16217c711e87")
+			(uuid "8b729035-f0d8-45a4-bb31-1aae7a063c6c")
 		)
 		(pin "2"
-			(uuid "0b8953f8-341a-4ce8-bbcb-8dfc1f8bc3ef")
+			(uuid "2ab16d2e-e433-4aa1-be34-ca276e9ae3ff")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "C10")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "C10")
 					(unit 1)
 				)
@@ -56957,23 +56873,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "119a8850-2e16-47c8-82c3-2acc93e5f78b")
+			(uuid "17382859-383f-4304-9efc-4b93f01736ee")
 		)
 		(pin "2"
-			(uuid "e4049038-5c7f-427c-8c2c-42a39bf6c6c7")
+			(uuid "6941cff8-cae0-480b-ae39-02ade670b2eb")
 		)
 		(pin "3"
-			(uuid "d16fb78f-eda8-4f66-8bf0-fe6dc4a89d6d")
+			(uuid "2f944f12-7573-46fe-8709-d26307e2b69d")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "SW2")
 					(unit 1)
 				)
@@ -57121,20 +57031,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "8a728d03-3d68-46d1-876f-c76851dcdc8a")
+			(uuid "c36ff4e0-eb9a-49e1-9daa-dcaa77c9dc73")
 		)
 		(pin "2"
-			(uuid "283eaa66-63b9-477f-9e16-640c9a58e3bf")
+			(uuid "6851e205-fe39-4ab8-af0a-fad5f81ba933")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "C12")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "C12")
 					(unit 1)
 				)
@@ -57244,32 +57148,26 @@
 			)
 		)
 		(pin "1"
-			(uuid "a6d8a57a-2d0c-4000-bab5-b6aa515ba2d5")
+			(uuid "d28aad29-2e00-4353-b340-95d8141fc979")
 		)
 		(pin "6"
-			(uuid "cafd5d57-1088-4f48-b8ae-ae943f004513")
+			(uuid "0e8cd5cc-257a-4d9d-994b-7c76942e75fb")
 		)
 		(pin "3"
-			(uuid "0c0a7c5f-2746-428c-9caa-7636d860a768")
+			(uuid "2c840a33-f8d3-4c7f-b8df-99dc10bebb5a")
 		)
 		(pin "4"
-			(uuid "b5bf72f6-3321-4e74-b7cc-2863dc88bb64")
+			(uuid "998c378b-0019-43a4-b452-9ede7d10d913")
 		)
 		(pin "5"
-			(uuid "9915996d-4837-4dd7-b9d8-76c278b9b6c7")
+			(uuid "041b8ade-12d1-4e94-a09f-6ce2772ff45b")
 		)
 		(pin "2"
-			(uuid "ffc5ccc5-d426-49c0-87c4-78675973dfcd")
+			(uuid "03e11c48-bd0a-4155-baed-045569f91ee1")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "D1")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "D1")
 					(unit 1)
 				)
@@ -57420,20 +57318,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "5d77505d-ea4f-4bc6-86e5-611ee854d029")
+			(uuid "147765d2-a042-44b6-b871-115f420fc269")
 		)
 		(pin "1"
-			(uuid "06361245-6524-470b-85c6-0bb1213fe08a")
+			(uuid "0b647047-b96b-49c9-bd0b-37a0b44c6786")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "R4")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "R4")
 					(unit 1)
 				)
@@ -57584,20 +57476,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "086137db-c84a-4421-a80b-4043e397fde6")
+			(uuid "53a9447d-1165-4e28-926d-7ccbd2dec42c")
 		)
 		(pin "1"
-			(uuid "2a213d30-224d-442d-952e-cbdbfa68bd80")
+			(uuid "799d4c0d-59f8-4e7b-8c51-1c94d95c66ae")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "R8")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "R8")
 					(unit 1)
 				)
@@ -57691,20 +57577,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "3ea4595f-fda5-48a3-8976-eb2e328b97b8")
+			(uuid "c9481aba-9b91-4d74-b9cf-ec1ebfe71fac")
 		)
 		(pin "2"
-			(uuid "c8fe5ae7-0f1d-4554-a6a0-bea3881c9645")
+			(uuid "d9310201-1a44-4046-973f-3997417a8393")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "C1")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "C1")
 					(unit 1)
 				)
@@ -57851,20 +57731,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "2573ec4c-067d-4748-94e5-7abeb0883f0e")
+			(uuid "ba6ac18d-350b-4617-bb17-3d56f2765c08")
 		)
 		(pin "2"
-			(uuid "9f84f5d1-3d4b-487a-b2c1-f9e03803acef")
+			(uuid "7ed14343-d31b-4cc2-a3c8-42f51e589cf5")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "C4")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "C4")
 					(unit 1)
 				)
@@ -58015,20 +57889,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "cc0debc9-31e7-4c9c-82a6-3b01f4f22640")
+			(uuid "102d75ce-d6c7-44c0-8de4-58d1fc3f4964")
 		)
 		(pin "1"
-			(uuid "9eee5b82-a377-45fc-bdd5-a14aedba945a")
+			(uuid "d718befc-3e38-4b57-a9b1-33a879d02d36")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "R1")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "R1")
 					(unit 1)
 				)
@@ -58136,20 +58004,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "4ecb4858-0803-4f35-adba-86c157c9a908")
+			(uuid "78275c6f-b6b1-48a5-9c61-6f5b1ad53bf5")
 		)
 		(pin "2"
-			(uuid "8e1f296f-a82f-4da2-b24a-7f8043d7a4f2")
+			(uuid "844e2280-5794-43b3-b004-22b217b64a60")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "D3")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "D3")
 					(unit 1)
 				)
@@ -58296,20 +58158,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "f65293ac-1fb2-4439-b88d-27de50a8b3da")
+			(uuid "cea3608a-192e-4315-8a0f-8cb55f77d03a")
 		)
 		(pin "2"
-			(uuid "3034c9de-e1ba-43a7-b3fe-f92e7e5aa4d8")
+			(uuid "9ed99df2-6a5c-4e46-9edd-4c7923648d0e")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "C11")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "C11")
 					(unit 1)
 				)
@@ -58415,20 +58271,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "02929b58-ff6a-43b2-84f1-5e75cfc0d40c")
+			(uuid "2b33722a-e991-4ff0-b0ac-30fcc7a91e5e")
 		)
 		(pin "2"
-			(uuid "6e864be7-8c70-497a-b1b9-77efb9795c43")
+			(uuid "52368711-689c-47e4-aaf5-b0e6a7506e39")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "R6")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "R6")
 					(unit 1)
 				)
@@ -58575,20 +58425,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "d1a4fe5a-3cd1-4d48-964c-934f7f0e0d0f")
+			(uuid "eca9ce57-8e79-47dd-9d32-ed33b07c31b3")
 		)
 		(pin "2"
-			(uuid "ed4c53ac-6796-4d5b-b2a2-397ecdc99a49")
+			(uuid "48103df2-d8b9-4afb-b4ce-6d815d12f839")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "SW1")
 					(unit 1)
 				)
@@ -58739,20 +58583,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "082d8f5e-7286-4777-bcb4-da4b51238f99")
+			(uuid "22b6e90b-68aa-48f6-871f-57b1a694cae9")
 		)
 		(pin "2"
-			(uuid "5e5bd3a8-a9df-44bc-be89-d639c89bcc2a")
+			(uuid "b8975b35-3181-450c-b521-11518294b6bd")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "C5")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "C5")
 					(unit 1)
 				)
@@ -58846,20 +58684,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "a8dcd2e2-28b3-4b91-b524-fb8067af1a00")
+			(uuid "050675a2-7b97-462b-b8b6-147886029fcb")
 		)
 		(pin "2"
-			(uuid "2bb00527-288c-43eb-adc4-a8acd6abb9ba")
+			(uuid "d85e7b4f-cbb8-4f45-ae1f-a307aad06dbf")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "FB1")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "FB1")
 					(unit 1)
 				)
@@ -59006,20 +58838,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "3ba7a5f4-13e6-462b-a78a-36541e38c8a5")
+			(uuid "5656e197-089f-4f85-810a-41db78f0a072")
 		)
 		(pin "2"
-			(uuid "8a6312d7-b0cd-45d0-96c6-e9e42f627714")
+			(uuid "3f6141e6-f939-4ef1-8fd8-317f032509bd")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "R7")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "R7")
 					(unit 1)
 				)
@@ -59166,20 +58992,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "6dfb2b07-e8f2-4e35-9bdc-8626e3232746")
+			(uuid "93445675-c836-48ac-8af2-920f363bf5f2")
 		)
 		(pin "2"
-			(uuid "690ce27f-bccf-4b64-be35-ab2c67bbc10a")
+			(uuid "e64ae799-7b39-4578-80dc-243b9b74235e")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "C8")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "C8")
 					(unit 1)
 				)
@@ -59253,26 +59073,20 @@
 			)
 		)
 		(pin "3"
-			(uuid "17af469e-b503-4564-a40b-604f05603e5c")
+			(uuid "e8d56f80-f043-49ce-80f9-1360645c5f11")
 		)
 		(pin "2"
-			(uuid "aadb5c17-63ec-463d-9256-7e4b3067dc74")
+			(uuid "50025008-678e-4bf4-b65f-544eef729797")
 		)
 		(pin "4"
-			(uuid "dc580db1-339e-46be-9989-17567d591225")
+			(uuid "747ba0ed-3b86-4377-8b8d-0c476ca7af74")
 		)
 		(pin "1"
-			(uuid "d9266d65-7e5e-46ce-bb0a-847fc9f15970")
+			(uuid "48f90434-d4ae-44a0-8468-9d7532b13055")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "J2")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "J2")
 					(unit 1)
 				)
@@ -59367,20 +59181,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "4990a532-08e3-41c0-9167-5da9cea21596")
+			(uuid "0d63c09c-efde-4ec0-a75d-f6932cd957d9")
 		)
 		(pin "2"
-			(uuid "f960b6c8-9f0e-4809-b7e7-f4c61a078fc9")
+			(uuid "710d81f5-fbde-48ca-918f-88c8db7879b3")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "C2")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "C2")
 					(unit 1)
 				)
@@ -59487,20 +59295,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "86c20f28-7871-42e8-9029-87b4e9bfc979")
+			(uuid "b525410b-0c5e-49cd-818b-7d504815503f")
 		)
 		(pin "2"
-			(uuid "f44bc584-362a-4517-a39d-dc056d9c9947")
+			(uuid "be83b7b1-511b-49a3-8aae-3fb0702a38c8")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "R5")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "R5")
 					(unit 1)
 				)
@@ -59647,20 +59449,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "71230971-b72a-4737-968f-b3e904b56f0e")
+			(uuid "9221866f-c380-4c1f-bc47-01d4a486a894")
 		)
 		(pin "2"
-			(uuid "115d7b9e-9868-4b14-b9d5-670549428bcb")
+			(uuid "942dc7bc-c504-4af2-9567-0a263c7929f2")
 		)
 		(instances
-			(project "48PinMCU"
-				(path "/b973e36d-c926-4cad-b0c3-dce51444ffeb"
-					(reference "C13")
-					(unit 1)
-				)
-			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/87945ef8-ca4a-4a94-8814-e56e5296b258"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/e5e45bf7-c5db-4d78-aff6-905d368ee9dc"
 					(reference "C13")
 					(unit 1)
 				)

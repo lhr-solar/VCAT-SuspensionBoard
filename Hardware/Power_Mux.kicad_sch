@@ -655,7 +655,7 @@
 	)
 	(text "Max and min threshold voltage calculations for 3v3 and 5v\n[delete this if you want :^)]"
 		(exclude_from_sim no)
-		(at 54.864 106.934 0)
+		(at 54.61 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -675,7 +675,7 @@
 	)
 	(text "R2"
 		(exclude_from_sim no)
-		(at 31.75 68.834 0)
+		(at 31.75 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -685,7 +685,7 @@
 	)
 	(text "R1"
 		(exclude_from_sim no)
-		(at 31.75 61.214 0)
+		(at 31.75 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -695,7 +695,7 @@
 	)
 	(text "5v "
 		(exclude_from_sim no)
-		(at 58.42 115.316 0)
+		(at 58.42 115.57 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -705,7 +705,7 @@
 	)
 	(text "Configured to use automatic switching mode: VIN_1 is prioritized"
 		(exclude_from_sim no)
-		(at 47.498 29.464 0)
+		(at 46.99 29.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -715,7 +715,7 @@
 	)
 	(text "Acceptable input range is 1.6 to 5.5 volts\nResistor divider needs to be tuned depending on input\n"
 		(exclude_from_sim no)
-		(at 48.006 36.068 0)
+		(at 48.26 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -726,7 +726,7 @@
 	)
 	(text "Resistor divider to meet Vref \nUser needs to set resistors!\nExample values:\nFor 5v:  R1 = 16k R2 = 4.7k   (Max threshold = 4.76, min = 4.05)\nFor 3v3: R1 = 18k R2 = 10k   (Max threshold = 3.02, min = 2.58)"
 		(exclude_from_sim no)
-		(at 16.002 87.376 0)
+		(at 16.51 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -737,7 +737,7 @@
 	)
 	(text "5V/3V3 Power Mux"
 		(exclude_from_sim no)
-		(at 51.816 20.574 0)
+		(at 52.07 20.32 0)
 		(effects
 			(font
 				(size 5.08 5.08)

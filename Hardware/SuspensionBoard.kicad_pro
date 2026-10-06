@@ -429,7 +429,7 @@
         "uuid": "f9dc491a-b8c6-4623-9728-13837ac4bba3"
       }
     ],
-    "used_designators": "JP2,TP1-4,#PWR1-30,D1-5,D9-13,Q1-2,U1-7,C1-12,C16-25,C29-47,FB1,#FLG1-4,IC2-3,J1-2,J4-5,J7-8,TH1,F1-3,L1,TP_3.3V1,R1-3,R9-12,R15-28",
+    "used_designators": "JP1-5,TP1-4,Y1,#PWR1-30,D1-13,Q1-2,C1-47,U1-7,FB1-2,SW1-2,#FLG1-6,IC1-3,J1-2,J4-8,TH1,F1-3,L1,TP_3.3V1,R1-29",
     "variants": []
   },
   "sheets": [
@@ -438,7 +438,7 @@
       "SuspensionBoard"
     ],
     [
-      "87945ef8-ca4a-4a94-8814-e56e5296b258",
+      "e5e45bf7-c5db-4d78-aff6-905d368ee9dc",
       "48PinMCU"
     ],
     [
@@ -454,7 +454,7 @@
       "LinPot"
     ],
     [
-      "607ef794-a8dc-49c5-8eea-be78a8201dda",
+      "329acb82-e278-4114-ae2d-06a45b64bcf5",
       "USB-C_Connector"
     ],
     [
@@ -470,11 +470,11 @@
       "power_Rail"
     ],
     [
-      "d2e121da-4655-471c-894c-244db72f6066",
-      "CAN_Bus"
+      "a17e150d-c0ca-4b81-ac9f-0470beae7874",
+      "MCU+USB"
     ],
     [
-      "5cd0492a-8586-4c19-a808-4d3883e80abc",
+      "5db358c0-18b3-459f-8665-95f1e3ffe97b",
       "CAN_Transceiver"
     ]
   ],
