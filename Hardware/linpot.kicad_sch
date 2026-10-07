@@ -1381,7 +1381,7 @@
 		(uuid "ecd41300-3cf6-455b-8a77-c656105f70b6")
 	)
 	(image
-		(at 90.17 158.75)
+		(at 88.9 105.41)
 		(uuid "bfca2afc-1429-4ef9-a565-8fc25972e54d")
 		(data "iVBORw0KGgoAAAANSUhEUgAABfQAAAJKCAIAAADlRVPHAAAAA3NCSVQICAjb4U/gAAAgAElEQVR4"
 			"nOzdd1xW5f/H8euc+2ZPBXErThD31gTTRNFc5dYsU7Nlan3r59ZMzXCPhlpmVqaVmiMVBXEP3BvR"
@@ -2230,7 +2230,7 @@
 		)
 	)
 	(hierarchical_label "GNDA"
-		(shape input)
+		(shape bidirectional)
 		(at 190.5 55.88 0)
 		(effects
 			(font
@@ -2307,7 +2307,7 @@
 		(uuid "aa8e0cd5-d5e9-4a60-b97d-8ffcf6b30110")
 	)
 	(hierarchical_label "GNDA"
-		(shape input)
+		(shape bidirectional)
 		(at 228.6 68.58 270)
 		(effects
 			(font
@@ -2318,7 +2318,7 @@
 		(uuid "d61be8d1-2749-4e5e-9667-d6b7f4c88741")
 	)
 	(hierarchical_label "GNDA"
-		(shape input)
+		(shape bidirectional)
 		(at 160.02 60.96 0)
 		(effects
 			(font
@@ -2783,7 +2783,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "100nF"
 			(at 237.744 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2794,7 +2794,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 233.9848 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -2875,7 +2875,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 247.904 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2886,7 +2886,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 244.1448 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3331,7 +3331,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 189.484 54.102 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3342,7 +3342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 189.23 54.9148 0)
 			(hide yes)
 			(show_name no)

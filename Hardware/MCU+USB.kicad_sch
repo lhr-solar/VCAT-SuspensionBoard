@@ -5,20 +5,21 @@
 	(uuid "9d38c86b-ce9a-43c0-970a-179cd7903fa7")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:R"
+		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0)
+				(offset 0.762)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -27,8 +28,8 @@
 					)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -38,7 +39,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -1.778 0 90)
+				(at 5.08 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -49,6 +50,17 @@
 				)
 			)
 			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -59,7 +71,7 @@
 					)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "ki_keywords" "test point tp"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -70,7 +82,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
+			(property "ki_fp_filters" "Pin* Test*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -81,23 +93,12 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -105,11 +106,11 @@
 					)
 				)
 			)
-			(symbol "R_1_1"
+			(symbol "TestPoint_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -124,33 +125,9 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(embedded_fonts no)
 		)
-	)
-	(junction
-		(at 158.75 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "59da34b5-f7f5-4399-a20f-183a26383a65")
 	)
 	(no_connect
 		(at 66.04 59.69)
@@ -175,6 +152,10 @@
 	(no_connect
 		(at 66.04 90.17)
 		(uuid "2f17e60c-dcb0-4dc2-a200-d80f0f105678")
+	)
+	(no_connect
+		(at 144.78 91.44)
+		(uuid "31e632c3-4ea2-4fe3-85ad-c16821ab8ca2")
 	)
 	(no_connect
 		(at 66.04 52.07)
@@ -225,6 +206,10 @@
 		(uuid "b113109d-844b-46d8-a310-2dc1521b6d57")
 	)
 	(no_connect
+		(at 144.78 87.63)
+		(uuid "c920c0db-405b-4346-b757-c4ac897977bc")
+	)
+	(no_connect
 		(at 104.14 97.79)
 		(uuid "cd81764a-1a59-461f-982c-988730f500f7")
 	)
@@ -261,16 +246,6 @@
 			(type default)
 		)
 		(uuid "01e4d764-66f5-4684-a4d1-ba370b03bb28")
-	)
-	(wire
-		(pts
-			(xy 154.94 87.63) (xy 158.75 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05be8648-39b5-444c-97fd-6b8bbc2b92af")
 	)
 	(wire
 		(pts
@@ -314,6 +289,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 121.92) (xy 86.36 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4661b840-fcd1-4305-8c10-cc75c983ec4d")
+	)
+	(wire
+		(pts
 			(xy 104.14 81.28) (xy 115.57 81.28)
 		)
 		(stroke
@@ -321,16 +306,6 @@
 			(type default)
 		)
 		(uuid "4c839559-5e6a-4f94-91cd-654667baa822")
-	)
-	(wire
-		(pts
-			(xy 158.75 87.63) (xy 158.75 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58196dc2-810a-476a-ad71-9fd324dfd9c6")
 	)
 	(wire
 		(pts
@@ -344,6 +319,26 @@
 	)
 	(wire
 		(pts
+			(xy 127 109.22) (xy 130.81 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73de450e-7be5-4aed-a306-61e5afa617d0")
+	)
+	(wire
+		(pts
+			(xy 107.95 121.92) (xy 113.03 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "758fba48-ae60-4877-a0ba-c4f4b78f5845")
+	)
+	(wire
+		(pts
 			(xy 72.39 109.22) (xy 76.2 109.22)
 		)
 		(stroke
@@ -351,26 +346,6 @@
 			(type default)
 		)
 		(uuid "76a0aa58-4e25-4e56-b99d-59fe87aebe54")
-	)
-	(wire
-		(pts
-			(xy 144.78 87.63) (xy 147.32 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a43c7f2-ac7b-4a5e-9a2f-e6a9aa927668")
-	)
-	(wire
-		(pts
-			(xy 158.75 91.44) (xy 161.29 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83f70d6c-e941-47c7-a349-c2f21fed0446")
 	)
 	(wire
 		(pts
@@ -434,23 +409,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 91.44) (xy 147.32 91.44)
+			(xy 147.32 109.22) (xy 151.13 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d4943730-c1af-48b7-a8d6-fa8bdb387e1d")
-	)
-	(wire
-		(pts
-			(xy 154.94 91.44) (xy 158.75 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5a521d8-f5af-4c58-9dc7-297512b6d5a0")
+		(uuid "d85ac951-a928-4ba1-ae24-2d76ed367e28")
 	)
 	(wire
 		(pts
@@ -3386,6 +3351,17 @@
 		)
 		(uuid "201646dd-4066-405d-bca5-e5a42ec5edcb")
 	)
+	(hierarchical_label "USB_5V"
+		(shape output)
+		(at 151.13 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34679f1c-4b4a-4c3c-92fe-da2dbb837b60")
+	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
 		(at 72.39 109.22 180)
@@ -3430,6 +3406,28 @@
 		)
 		(uuid "6d7a25a3-1530-4c6b-83e9-9486af45a7d0")
 	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 130.81 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "703ebb5f-50d7-44a9-b62d-293fcf249103")
+	)
+	(hierarchical_label "3.3VA"
+		(shape input)
+		(at 113.03 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78b1fe7b-a966-4568-b5fb-8215c940964b")
+	)
 	(hierarchical_label "GNDA"
 		(shape bidirectional)
 		(at 86.36 109.22 180)
@@ -3441,16 +3439,16 @@
 		)
 		(uuid "9c626f41-d39f-4d11-8a3d-3dc3c5ed8d19")
 	)
-	(hierarchical_label "GND"
+	(hierarchical_label "GNDA"
 		(shape bidirectional)
-		(at 161.29 91.44 0)
+		(at 86.36 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "bdb00b0c-1cbd-4bd0-9fce-e3c6dc8c827b")
+		(uuid "aa71ee60-6bc7-4949-8c59-e4af96bd79c5")
 	)
 	(hierarchical_label "3.3V"
 		(shape input)
@@ -3464,8 +3462,8 @@
 		(uuid "d0783e98-e44b-4d3e-b2d6-e86b0cc8806e")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 151.13 87.63 90)
+		(lib_id "Connector:TestPoint")
+		(at 147.32 109.22 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3473,9 +3471,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8233fc4f-cdc2-4375-b1bc-621d16a2c2fb")
-		(property "Reference" "R11"
-			(at 151.13 83.82 90)
+		(fields_autoplaced yes)
+		(uuid "2adacec7-a12c-497b-8db9-3de152f83b1e")
+		(property "Reference" "TP15"
+			(at 144.018 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3484,8 +3483,8 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
-			(at 151.13 85.598 90)
+		(property "Value" "TestPoint"
+			(at 144.018 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3494,8 +3493,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 151.13 89.408 90)
+		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105310-xx10_2x05_P2.50mm_Vertical"
+			(at 147.32 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3506,7 +3505,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 87.63 0)
+			(at 147.32 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3516,19 +3515,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 151.13 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "P/N" "CRCW06035K10FKEC"
-			(at 151.13 87.63 90)
+		(property "Description" "test point"
+			(at 147.32 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3539,23 +3527,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "21613004-3c43-46d1-9666-d78371331f3f")
-		)
-		(pin "2"
-			(uuid "bf192746-628e-4e07-903b-ac07f33c67f7")
+			(uuid "0ecaae09-9082-4937-8360-462921c3c94e")
 		)
 		(instances
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874"
-					(reference "R11")
+					(reference "TP15")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 151.13 91.44 90)
+		(lib_id "Connector:TestPoint")
+		(at 127 109.22 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3563,9 +3548,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ac862a09-1abd-4662-bef6-79de399d769a")
-		(property "Reference" "R29"
-			(at 151.13 93.726 90)
+		(fields_autoplaced yes)
+		(uuid "45895acf-8c0f-4b62-9fb3-0c8f65b48b05")
+		(property "Reference" "TP14"
+			(at 123.698 104.14 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3574,8 +3560,8 @@
 				)
 			)
 		)
-		(property "Value" "5.1k"
-			(at 151.13 95.758 90)
+		(property "Value" "TestPoint"
+			(at 123.698 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3584,8 +3570,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 151.13 93.218 90)
+		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105310-xx10_2x05_P2.50mm_Vertical"
+			(at 127 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3596,7 +3582,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 91.44 0)
+			(at 127 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3606,19 +3592,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 151.13 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "P/N" "CRCW06035K10FKEC"
-			(at 151.13 91.44 90)
+		(property "Description" "test point"
+			(at 127 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3629,15 +3604,166 @@
 			)
 		)
 		(pin "1"
-			(uuid "7d3cf6c4-c207-4436-be46-602ccd512506")
-		)
-		(pin "2"
-			(uuid "57731eb1-73e3-42fa-924e-fb9d0374349b")
+			(uuid "81a62675-d561-42f3-bffa-d972f0036d8a")
 		)
 		(instances
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874"
-					(reference "R29")
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 107.95 121.92 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3255d73-1ce5-4c37-81ed-6e4d0d45112d")
+		(property "Reference" "TP13"
+			(at 104.648 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 104.648 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105310-xx10_2x05_P2.50mm_Vertical"
+			(at 107.95 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 107.95 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9bd4a9d7-4fb8-4a26-9ceb-d40b329038ee")
+		)
+		(instances
+			(project "SuspensionBoard"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 82.55 121.92 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3ae343c-71d1-41b7-8dc0-8343a7bb6f67")
+		(property "Reference" "TP12"
+			(at 79.248 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 79.248 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105310-xx10_2x05_P2.50mm_Vertical"
+			(at 82.55 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 82.55 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d338e5f-0528-4394-b339-77b8ab406afd")
+		)
+		(instances
+			(project "SuspensionBoard"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874"
+					(reference "TP12")
 					(unit 1)
 				)
 			)

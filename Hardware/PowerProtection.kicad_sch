@@ -5417,7 +5417,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "220n"
+		(property "Value" "220nF"
 			(at 57.785 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5828,7 +5828,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 38.1 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6367,7 +6367,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 113.03 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6470,7 +6470,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "10uF"
 			(at 54.61 64.262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6573,7 +6573,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u"
+		(property "Value" "10uF"
 			(at 112.395 52.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6584,7 +6584,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 110.1852 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6922,7 +6922,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u"
+		(property "Value" "1uF"
 			(at 31.75 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7025,7 +7025,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "0.1uF"
 			(at 131.826 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -57511,7 +57511,7 @@
 				)
 			)
 		)
-		(property "Value" "26p"
+		(property "Value" "26pF"
 			(at 34.544 37.084 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -57624,7 +57624,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 172.1612 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -59115,7 +59115,7 @@
 				)
 			)
 		)
-		(property "Value" "26p"
+		(property "Value" "26pF"
 			(at 34.798 56.388 90)
 			(show_name no)
 			(do_not_autoplace no)
