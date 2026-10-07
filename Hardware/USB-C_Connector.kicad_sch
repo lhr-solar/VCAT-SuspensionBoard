@@ -1613,6 +1613,12 @@
 		(uuid "c3a8983e-39ad-4f32-83a9-160df684dd0a")
 	)
 	(junction
+		(at 27.94 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03b2310c-9ed6-4b28-9a7a-b862a8557707")
+	)
+	(junction
 		(at 50.8 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1631,10 +1637,10 @@
 		(uuid "87665ee5-842f-4ab8-b4ef-f09e77cb2a70")
 	)
 	(junction
-		(at 31.75 68.58)
+		(at 27.94 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "90e8ec2f-5095-48d1-819b-b485cf0227c1")
+		(uuid "f44a4274-df43-4cae-a1ea-7c3aa73e5b39")
 	)
 	(no_connect
 		(at 50.8 60.96)
@@ -1696,13 +1702,13 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 68.58) (xy 35.56 68.58)
+			(xy 31.75 69.85) (xy 31.75 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c6676d9-655e-47b0-993b-851f93b29be0")
+		(uuid "171ec5bf-b542-4d16-a6f5-228e41b6657b")
 	)
 	(wire
 		(pts
@@ -1736,6 +1742,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 68.58) (xy 35.56 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37c8479f-4410-4f3f-bf11-e64271e49b01")
+	)
+	(wire
+		(pts
 			(xy 88.9 41.91) (xy 90.17 41.91)
 		)
 		(stroke
@@ -1756,6 +1772,26 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 78.74) (xy 24.13 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "478624da-3880-4d42-aa1e-77140ff1d8fb")
+	)
+	(wire
+		(pts
+			(xy 35.56 82.55) (xy 27.94 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d99fd91-bafd-4c5d-90af-ed72eda169fa")
+	)
+	(wire
+		(pts
 			(xy 97.79 41.91) (xy 97.79 44.45)
 		)
 		(stroke
@@ -1763,6 +1799,16 @@
 			(type default)
 		)
 		(uuid "5267cea2-22b6-4dd5-b54b-587e459b53db")
+	)
+	(wire
+		(pts
+			(xy 27.94 80.01) (xy 31.75 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5385a8c7-cab5-4bbd-94d2-8f742241144e")
 	)
 	(wire
 		(pts
@@ -1786,6 +1832,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 82.55) (xy 27.94 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dc2afef-c8c6-424a-b154-dbf70014ce25")
+	)
+	(wire
+		(pts
 			(xy 50.8 49.53) (xy 50.8 50.8)
 		)
 		(stroke
@@ -1796,13 +1852,23 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 68.58) (xy 31.75 69.85)
+			(xy 24.13 80.01) (xy 27.94 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "728034de-1f4f-43c4-b764-799f66fbad77")
+		(uuid "682a1bc5-2467-42d6-8634-774fdb3ed49e")
+	)
+	(wire
+		(pts
+			(xy 27.94 68.58) (xy 27.94 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70d2d92c-c8f0-4899-a817-54599a1dbc32")
 	)
 	(wire
 		(pts
@@ -1846,6 +1912,26 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 69.85) (xy 31.75 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c46d1dd-c60f-4ead-b901-438aecf2f9b1")
+	)
+	(wire
+		(pts
+			(xy 24.13 69.85) (xy 27.94 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abb73247-5908-425d-a950-47dc24515fb8")
+	)
+	(wire
+		(pts
 			(xy 50.8 44.45) (xy 55.88 44.45)
 		)
 		(stroke
@@ -1853,16 +1939,6 @@
 			(type default)
 		)
 		(uuid "c072b2d4-24ef-4397-8af9-5c401c4916c0")
-	)
-	(wire
-		(pts
-			(xy 27.94 68.58) (xy 31.75 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2ea544c-0d4a-4c83-a51a-44bd5212c87e")
 	)
 	(wire
 		(pts
@@ -1906,6 +1982,26 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 80.01) (xy 31.75 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5563f67-74fd-4d93-ab9e-0d649295f2fe")
+	)
+	(wire
+		(pts
+			(xy 24.13 71.12) (xy 24.13 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f62c39f4-4c9e-40bd-b481-1edd7f66b24f")
+	)
+	(wire
+		(pts
 			(xy 68.58 78.74) (xy 69.85 78.74)
 		)
 		(stroke
@@ -1937,7 +2033,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape input)
-		(at 31.75 69.85 270)
+		(at 35.56 82.55 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2281,6 +2377,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 31.75 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "507837b6-66ee-45e7-aef7-809a55f3d35d")
+		(property "Reference" "C41"
+			(at 27.94 72.898 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7nF"
+			(at 26.162 77.216 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 32.7152 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 31.75 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a0fcbcf-94a1-48e5-afc6-f7f5ce5027c1")
+		)
+		(pin "2"
+			(uuid "58057ac9-384b-409e-9d36-4680ef501e77")
+		)
+		(instances
+			(project "SuspensionBoard"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/329acb82-e278-4114-ae2d-06a45b64bcf5"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lhrs_connectors:USB_C_Receptacle_USB2.0_16P")
 		(at 35.56 45.72 0)
 		(unit 1)
@@ -2510,6 +2687,87 @@
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/329acb82-e278-4114-ae2d-06a45b64bcf5"
 					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 24.13 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cea9f08f-3ad7-49b0-bfef-55ab36b9414c")
+		(property "Reference" "R11"
+			(at 22.098 76.708 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1M"
+			(at 24.13 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.352 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 24.13 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b28e0814-b7b7-44db-b209-c509b57fec5d")
+		)
+		(pin "2"
+			(uuid "23829c74-808b-43a0-b595-e59384be81cd")
+		)
+		(instances
+			(project "SuspensionBoard"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874/329acb82-e278-4114-ae2d-06a45b64bcf5"
+					(reference "R11")
 					(unit 1)
 				)
 			)
