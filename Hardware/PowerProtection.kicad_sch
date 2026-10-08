@@ -5385,6 +5385,12 @@
 			(uuid "9bafd0f8-1646-4d59-a2e6-718216f838d9")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/9f68e68b-217f-480f-8087-626c4b14676f"
+					(reference "D10")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/9f68e68b-217f-480f-8087-626c4b14676f"
 					(reference "D10")
@@ -5490,6 +5496,12 @@
 			(uuid "8ed2aa9a-21d2-4e67-b2ae-cf9a4089c698")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/9f68e68b-217f-480f-8087-626c4b14676f"
+					(reference "C31")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/9f68e68b-217f-480f-8087-626c4b14676f"
 					(reference "C31")
@@ -5593,6 +5605,12 @@
 			(uuid "6060c618-46c8-47d4-9226-048fed674e17")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/9f68e68b-217f-480f-8087-626c4b14676f"
+					(reference "D9")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/9f68e68b-217f-480f-8087-626c4b14676f"
 					(reference "D9")
@@ -5697,6 +5715,12 @@
 			(uuid "233c35d9-d93b-4a06-9a90-8fd102d74e50")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/9f68e68b-217f-480f-8087-626c4b14676f"
+					(reference "R15")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/9f68e68b-217f-480f-8087-626c4b14676f"
 					(reference "R15")
@@ -5798,6 +5822,12 @@
 			(uuid "054c7fca-ace8-4458-9ef0-71a3ff5755c1")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/9f68e68b-217f-480f-8087-626c4b14676f"
+					(reference "R20")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/9f68e68b-217f-480f-8087-626c4b14676f"
 					(reference "R20")
@@ -5901,6 +5931,12 @@
 			(uuid "03cd13a4-f49a-4942-a3fe-4e0c13b2a991")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/9f68e68b-217f-480f-8087-626c4b14676f"
+					(reference "C29")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/9f68e68b-217f-480f-8087-626c4b14676f"
 					(reference "C29")
@@ -6013,6 +6049,12 @@
 			(uuid "62e10240-cfbe-4ec9-90c1-e506a9970c1d")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/9f68e68b-217f-480f-8087-626c4b14676f"
+					(reference "R16")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/9f68e68b-217f-480f-8087-626c4b14676f"
 					(reference "R16")
@@ -6194,6 +6236,12 @@
 			(uuid "f348dc16-9bc5-4bc4-ac68-bc0dd8d354f1")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/9f68e68b-217f-480f-8087-626c4b14676f"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/9f68e68b-217f-480f-8087-626c4b14676f"
 					(reference "IC2")
@@ -6337,6 +6385,12 @@
 			(uuid "de16906c-4dad-422d-a7e3-7a20c4f6c05c")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/9f68e68b-217f-480f-8087-626c4b14676f"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/9f68e68b-217f-480f-8087-626c4b14676f"
 					(reference "Q1")
@@ -6440,6 +6494,12 @@
 			(uuid "af3f09c0-f9bd-4c1b-9e27-f7673a4ab9b2")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/9f68e68b-217f-480f-8087-626c4b14676f"
+					(reference "C34")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/9f68e68b-217f-480f-8087-626c4b14676f"
 					(reference "C34")
@@ -6543,6 +6603,12 @@
 			(uuid "e39e69d2-a4dd-4c93-94c9-ac656194fadb")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/9f68e68b-217f-480f-8087-626c4b14676f"
+					(reference "C32")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/9f68e68b-217f-480f-8087-626c4b14676f"
 					(reference "C32")
@@ -6646,6 +6712,12 @@
 			(uuid "1c5c1c2c-9415-4b5a-bac8-fca194db2a8a")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/9f68e68b-217f-480f-8087-626c4b14676f"
+					(reference "C33")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/9f68e68b-217f-480f-8087-626c4b14676f"
 					(reference "C33")
@@ -6790,6 +6862,12 @@
 			(uuid "b1358534-0205-4521-ac8d-a54d84d78a41")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/9f68e68b-217f-480f-8087-626c4b14676f"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/9f68e68b-217f-480f-8087-626c4b14676f"
 					(reference "Q2")
@@ -6891,6 +6969,12 @@
 			(uuid "9b230390-2aef-4683-aec3-e71c3fb9304b")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/9f68e68b-217f-480f-8087-626c4b14676f"
+					(reference "R18")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/9f68e68b-217f-480f-8087-626c4b14676f"
 					(reference "R18")
@@ -6995,6 +7079,12 @@
 			(uuid "7331f57c-9776-4cde-a1fa-5b0a46b1def4")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/9f68e68b-217f-480f-8087-626c4b14676f"
+					(reference "C30")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/9f68e68b-217f-480f-8087-626c4b14676f"
 					(reference "C30")
@@ -7098,6 +7188,12 @@
 			(uuid "fab9ab1b-2ab2-4bcd-aa84-41c091ab2ac0")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/9f68e68b-217f-480f-8087-626c4b14676f"
+					(reference "C35")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/9f68e68b-217f-480f-8087-626c4b14676f"
 					(reference "C35")
@@ -7201,6 +7297,12 @@
 			(uuid "c249e61b-4021-4766-967c-d3c383ed0845")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/9f68e68b-217f-480f-8087-626c4b14676f"
+					(reference "R17")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/9f68e68b-217f-480f-8087-626c4b14676f"
 					(reference "R17")
@@ -7302,6 +7404,12 @@
 			(uuid "e61aff47-5bb6-4df9-8d8b-1659137d0d0b")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/9f68e68b-217f-480f-8087-626c4b14676f"
+					(reference "R19")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/9f68e68b-217f-480f-8087-626c4b14676f"
 					(reference "R19")

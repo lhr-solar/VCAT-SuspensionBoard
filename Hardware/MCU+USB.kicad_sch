@@ -154,7 +154,7 @@
 		(uuid "2f17e60c-dcb0-4dc2-a200-d80f0f105678")
 	)
 	(no_connect
-		(at 144.78 91.44)
+		(at 144.78 80.01)
 		(uuid "31e632c3-4ea2-4fe3-85ad-c16821ab8ca2")
 	)
 	(no_connect
@@ -206,7 +206,7 @@
 		(uuid "b113109d-844b-46d8-a310-2dc1521b6d57")
 	)
 	(no_connect
-		(at 144.78 87.63)
+		(at 144.78 76.2)
 		(uuid "c920c0db-405b-4346-b757-c4ac897977bc")
 	)
 	(no_connect
@@ -249,16 +249,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 88.9) (xy 113.03 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0714c6e2-23da-41c9-bd38-297bde53f619")
-	)
-	(wire
-		(pts
 			(xy 88.9 104.14) (xy 88.9 109.22)
 		)
 		(stroke
@@ -269,7 +259,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 83.82) (xy 115.57 83.82)
+			(xy 148.59 83.82) (xy 144.78 83.82)
 		)
 		(stroke
 			(width 0)
@@ -286,6 +276,16 @@
 			(type default)
 		)
 		(uuid "4187d812-0a1c-429c-9104-73c2be602a44")
+	)
+	(wire
+		(pts
+			(xy 144.78 90.17) (xy 148.59 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41949d28-daf8-45aa-8246-671cb9174dce")
 	)
 	(wire
 		(pts
@@ -369,16 +369,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 88.9) (xy 115.57 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7030136-df40-4f6e-8078-8d6e1323064a")
-	)
-	(wire
-		(pts
 			(xy 76.2 104.14) (xy 76.2 109.22)
 		)
 		(stroke
@@ -389,16 +379,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 91.44) (xy 110.49 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d380b3a4-4171-4fff-ac29-98b2bea1cb4b")
-	)
-	(wire
-		(pts
 			(xy 105.41 68.58) (xy 104.14 68.58)
 		)
 		(stroke
@@ -406,16 +386,6 @@
 			(type default)
 		)
 		(uuid "d3dcc3ae-737f-43b0-ad97-50e4b3959692")
-	)
-	(wire
-		(pts
-			(xy 147.32 109.22) (xy 151.13 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d85ac951-a928-4ba1-ae24-2d76ed367e28")
 	)
 	(wire
 		(pts
@@ -3331,12 +3301,12 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 110.49 91.44 180)
+		(at 148.59 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "1622f42f-b8c2-4e5b-b100-daf5f7cd311e")
 	)
@@ -3351,17 +3321,6 @@
 		)
 		(uuid "201646dd-4066-405d-bca5-e5a42ec5edcb")
 	)
-	(hierarchical_label "USB_5V"
-		(shape output)
-		(at 151.13 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "34679f1c-4b4a-4c3c-92fe-da2dbb837b60")
-	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
 		(at 72.39 109.22 180)
@@ -3375,12 +3334,12 @@
 	)
 	(hierarchical_label "USB_5V"
 		(shape output)
-		(at 113.03 83.82 180)
+		(at 148.59 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5ca7827b-77f7-4fdf-87a7-6f83fe7852b8")
 	)
@@ -3463,83 +3422,6 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 147.32 109.22 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2adacec7-a12c-497b-8db9-3de152f83b1e")
-		(property "Reference" "TP15"
-			(at 144.018 104.14 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 144.018 106.68 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105310-xx10_2x05_P2.50mm_Vertical"
-			(at 147.32 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 147.32 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0ecaae09-9082-4937-8360-462921c3c94e")
-		)
-		(instances
-			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874"
-					(reference "TP15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
 		(at 127 109.22 90)
 		(unit 1)
 		(body_style 1)
@@ -3560,7 +3442,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "GND_POINT"
 			(at 123.698 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3637,7 +3519,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "3.3VA_POINT"
 			(at 104.648 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3714,7 +3596,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "GNDA_POINT"
 			(at 79.248 119.38 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3830,7 +3712,7 @@
 			)
 		)
 		(pin "CC1" bidirectional
-			(at 144.78 87.63 0)
+			(at 144.78 76.2 0)
 			(uuid "1fe10ca9-75d5-46a0-9b60-67259b4a5619")
 			(effects
 				(font
@@ -3840,7 +3722,7 @@
 			)
 		)
 		(pin "CC2" bidirectional
-			(at 144.78 91.44 0)
+			(at 144.78 80.01 0)
 			(uuid "b61adf95-5766-400e-9551-2e435017d7ee")
 			(effects
 				(font
@@ -3850,23 +3732,23 @@
 			)
 		)
 		(pin "GND" input
-			(at 115.57 88.9 180)
+			(at 144.78 90.17 0)
 			(uuid "d410bb20-da90-413c-8f0c-83a831538b7c")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "USB_5V" output
-			(at 115.57 83.82 180)
+			(at 144.78 83.82 0)
 			(uuid "99ae460e-d4f1-4797-b398-ad7004b3cba4")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "USB_DM" bidirectional

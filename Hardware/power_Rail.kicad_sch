@@ -820,7 +820,6 @@
 				)
 			)
 			(embedded_fonts no)
-			(embedded_files)
 		)
 	)
 	(rectangle
@@ -1071,7 +1070,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 87.63) (xy 99.06 87.63)
+			(xy 93.98 95.25) (xy 99.06 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1331,7 +1330,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 85.09) (xy 99.06 87.63)
+			(xy 99.06 88.9) (xy 99.06 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1502,7 +1501,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 95.25 87.63 180)
+		(at 93.98 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1727,6 +1726,12 @@
 			(uuid "78c58880-a6f1-4504-aa80-28ead067f61d")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
+					(reference "D11")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
 					(reference "D11")
@@ -1841,6 +1846,12 @@
 			(uuid "a586567a-9dfc-488e-a499-6db91de8e3ec")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
+					(reference "D14")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
 					(reference "D14")
@@ -1918,6 +1929,12 @@
 			(uuid "6945c4a7-e31e-461a-bb1a-afe799725de4")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
 					(reference "TP11")
@@ -1995,6 +2012,12 @@
 			(uuid "8d233453-b988-44fc-9dba-9b210f64d021")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
 					(reference "TP5")
@@ -2074,6 +2097,12 @@
 			(uuid "3a1c4118-2c35-43bb-8358-a72a17600569")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
 					(reference "TP7")
@@ -2155,6 +2184,12 @@
 			(uuid "0a3e24a5-c216-4274-9214-0e83262efe11")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
+					(reference "R29")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
 					(reference "R29")
@@ -2236,6 +2271,12 @@
 			(uuid "d691a220-9c6b-4c00-a531-6f1d57f4404b")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
+					(reference "R31")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
 					(reference "R31")
@@ -2315,6 +2356,12 @@
 			(uuid "7ac1735b-0f1c-4718-ab49-654ae879fb7f")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
 					(reference "TP6")
@@ -2394,6 +2441,12 @@
 			(uuid "749f218f-9188-4dbd-86c0-be8d10d97ee3")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
 					(reference "TP16")
@@ -2473,6 +2526,12 @@
 			(uuid "97550ca9-0cd6-487b-8979-78da022a416a")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
 					(reference "TP8")
@@ -2552,6 +2611,12 @@
 			(uuid "c7ad3b44-1876-4fe7-9b54-af59fddf1b2e")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
+					(reference "F1")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
 					(reference "F1")
@@ -2666,6 +2731,12 @@
 			(uuid "88d5e054-9ea2-493c-8b8a-70633fc16164")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
+					(reference "D12")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
 					(reference "D12")
@@ -2747,6 +2818,12 @@
 			(uuid "bfe5f7cd-d967-4e64-8b1c-d3261996c64e")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
+					(reference "R30")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
 					(reference "R30")
@@ -2839,6 +2916,12 @@
 			(uuid "d247f8d4-1601-4c3a-9002-850e83637ada")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
+					(reference "R23")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
 					(reference "R23")
@@ -2920,6 +3003,12 @@
 			(uuid "9045b065-b38e-4898-9f80-d1e88940aed5")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
+					(reference "R22")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
 					(reference "R22")
@@ -2999,6 +3088,12 @@
 			(uuid "efcb9109-6aa4-4a77-9730-2cc8a1057d35")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
 					(reference "TP9")
@@ -3079,6 +3174,12 @@
 			(uuid "6586c821-d83c-4dc7-937b-41c292ef070f")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
 					(reference "JP2")
@@ -3156,6 +3257,12 @@
 			(uuid "35bca2fd-e21c-4ab8-ab4f-2a76220d943d")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
 					(reference "TP10")
@@ -3259,6 +3366,11 @@
 					(page "8")
 				)
 			)
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
+					(page "4")
+				)
+			)
 		)
 	)
 	(sheet
@@ -3332,6 +3444,11 @@
 		(instances
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
+					(page "3")
+				)
+			)
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
 					(page "3")
 				)
 			)
@@ -3411,11 +3528,16 @@
 					(page "4")
 				)
 			)
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
+					(page "5")
+				)
+			)
 		)
 	)
 	(sheet
 		(at 92.71 78.74)
-		(size 12.7 6.35)
+		(size 12.7 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3452,7 +3574,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 99.06 85.09 270)
+			(at 99.06 88.9 270)
 			(uuid "8953170e-bcb0-491f-863e-bcec7476d841")
 			(effects
 				(font
@@ -3487,6 +3609,16 @@
 					(page "7")
 				)
 			)
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )

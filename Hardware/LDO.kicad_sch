@@ -2018,6 +2018,12 @@
 			(uuid "b6645a91-52b6-490a-b866-29658c8afc80")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/7da03bba-6e89-4676-b538-830a2c925006"
+					(reference "C23")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/7da03bba-6e89-4676-b538-830a2c925006"
 					(reference "C23")
@@ -2134,6 +2140,12 @@
 			(uuid "21c770dc-ce7f-4418-8526-1d757826a033")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/7da03bba-6e89-4676-b538-830a2c925006"
+					(reference "TP_3.3V1")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/7da03bba-6e89-4676-b538-830a2c925006"
 					(reference "TP_3.3V1")
@@ -2261,6 +2273,12 @@
 			(uuid "88ab289f-6357-4014-a3e9-8c4423aadff3")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/7da03bba-6e89-4676-b538-830a2c925006"
+					(reference "U3")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/7da03bba-6e89-4676-b538-830a2c925006"
 					(reference "U3")
@@ -2385,6 +2403,12 @@
 			(uuid "2412672a-9fbb-40d1-b114-2acb71cbb3a0")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/7da03bba-6e89-4676-b538-830a2c925006"
+					(reference "D4")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/7da03bba-6e89-4676-b538-830a2c925006"
 					(reference "D4")
@@ -2489,6 +2513,12 @@
 			(uuid "83b3b9d6-0668-437a-96f8-0bdd96e2c54e")
 		)
 		(instances
+			(project "power_Rail"
+				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/7da03bba-6e89-4676-b538-830a2c925006"
+					(reference "C22")
+					(unit 1)
+				)
+			)
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/7da03bba-6e89-4676-b538-830a2c925006"
 					(reference "C22")

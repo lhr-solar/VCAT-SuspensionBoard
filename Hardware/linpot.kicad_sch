@@ -1112,7 +1112,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 49.53) (xy 245.11 53.34)
+			(xy 246.38 49.53) (xy 246.38 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1132,7 +1132,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 60.96) (xy 245.11 66.04)
+			(xy 246.38 60.96) (xy 246.38 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1202,7 +1202,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 49.53) (xy 245.11 49.53)
+			(xy 234.95 49.53) (xy 246.38 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1372,7 +1372,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 66.04) (xy 234.95 66.04)
+			(xy 246.38 66.04) (xy 234.95 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2855,7 +2855,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 245.11 57.15 180)
+		(at 246.38 57.15 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2865,7 +2865,7 @@
 		(dnp no)
 		(uuid "cbce8fdb-e077-4f54-8cfb-0cd626971887")
 		(property "Reference" "C47"
-			(at 247.904 55.88 0)
+			(at 249.174 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2876,7 +2876,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 247.904 58.42 0)
+			(at 249.174 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2887,7 +2887,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 244.1448 53.34 0)
+			(at 245.4148 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2898,7 +2898,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 57.15 0)
+			(at 246.38 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2909,7 +2909,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 245.11 57.15 0)
+			(at 246.38 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2920,7 +2920,7 @@
 			)
 		)
 		(property "P/N" "GRM21BR61H106KE43L"
-			(at 245.11 57.15 0)
+			(at 246.38 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
