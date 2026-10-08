@@ -128,14 +128,403 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "lhrs_misc:Blue_LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "kicad-embed://Blue LED.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC P/N" "C125103"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "P/N" "LTST-C193TBKT-5A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Blue_LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Blue_LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 135.89 30.48)
+		(end 161.29 60.96)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "66777d9c-947a-40b4-9b98-8f174960fd8c")
+	)
+	(text "Test_Points"
+		(exclude_from_sim no)
+		(at 144.018 28.702 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "bf4dc908-9b4b-4a19-8783-46ce78af4e11")
+	)
+	(junction
+		(at 22.86 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4be04527-155c-4e8d-ba6c-2dfe6edd1ef3")
 	)
 	(no_connect
 		(at 66.04 59.69)
 		(uuid "02816c17-ed73-4006-acfd-9c6f507a27f7")
-	)
-	(no_connect
-		(at 66.04 74.93)
-		(uuid "1033569c-5984-4834-bdf0-e8ae6f107838")
 	)
 	(no_connect
 		(at 66.04 92.71)
@@ -178,10 +567,6 @@
 		(uuid "741699bc-b3f4-4aaa-bbe7-f2e56dc8b7fe")
 	)
 	(no_connect
-		(at 66.04 80.01)
-		(uuid "7751bba2-61a7-407f-a74c-2e7dda25ea9a")
-	)
-	(no_connect
 		(at 104.14 58.42)
 		(uuid "7780c0c5-d440-4718-b00d-9a0e44e870ef")
 	)
@@ -196,10 +581,6 @@
 	(no_connect
 		(at 66.04 64.77)
 		(uuid "ac9ffc7d-783f-46a4-ab62-65738f41b76f")
-	)
-	(no_connect
-		(at 66.04 85.09)
-		(uuid "afde14d2-477d-440f-a56d-d2165dcd2812")
 	)
 	(no_connect
 		(at 66.04 87.63)
@@ -249,6 +630,26 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 87.63) (xy 34.29 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08d53076-c6bf-4278-94db-61995fed91dd")
+	)
+	(wire
+		(pts
+			(xy 45.72 87.63) (xy 60.96 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "100a914e-0fe8-4f95-8602-1a7f83d5ece8")
+	)
+	(wire
+		(pts
 			(xy 88.9 104.14) (xy 88.9 109.22)
 		)
 		(stroke
@@ -259,6 +660,26 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 77.47) (xy 54.61 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e8194aa-22b6-414f-8a07-ae490e506a13")
+	)
+	(wire
+		(pts
+			(xy 19.05 86.36) (xy 19.05 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f6aa1d8-1551-4b3d-ae82-03388b7f34f1")
+	)
+	(wire
+		(pts
 			(xy 148.59 83.82) (xy 144.78 83.82)
 		)
 		(stroke
@@ -266,6 +687,36 @@
 			(type default)
 		)
 		(uuid "2fb3c9cb-10fd-4933-bc14-ea938d0ffa77")
+	)
+	(wire
+		(pts
+			(xy 26.67 82.55) (xy 22.86 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37f1cd9f-3457-419a-ad1d-649061b27f53")
+	)
+	(wire
+		(pts
+			(xy 26.67 77.47) (xy 22.86 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "388fd9e3-77b8-435f-a629-5facb2d229a8")
+	)
+	(wire
+		(pts
+			(xy 60.96 85.09) (xy 66.04 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a05a17b-5bde-45d3-a0de-832a056512bb")
 	)
 	(wire
 		(pts
@@ -289,7 +740,17 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 121.92) (xy 86.36 121.92)
+			(xy 54.61 74.93) (xy 66.04 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44984360-e122-4427-98a0-0900ab4d9362")
+	)
+	(wire
+		(pts
+			(xy 147.32 57.15) (xy 151.13 57.15)
 		)
 		(stroke
 			(width 0)
@@ -319,7 +780,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 109.22) (xy 130.81 109.22)
+			(xy 147.32 38.1) (xy 151.13 38.1)
 		)
 		(stroke
 			(width 0)
@@ -329,7 +790,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 121.92) (xy 113.03 121.92)
+			(xy 147.32 46.99) (xy 152.4 46.99)
 		)
 		(stroke
 			(width 0)
@@ -369,6 +830,36 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 87.63) (xy 22.86 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a12ba333-11ad-4b05-bc8d-5d90d0a16274")
+	)
+	(wire
+		(pts
+			(xy 17.78 86.36) (xy 19.05 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a29b67de-4126-4e5d-86ca-38079bc748ef")
+	)
+	(wire
+		(pts
+			(xy 45.72 80.01) (xy 45.72 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acabf36e-55a4-4d20-9e37-9c11a0300170")
+	)
+	(wire
+		(pts
 			(xy 76.2 104.14) (xy 76.2 109.22)
 		)
 		(stroke
@@ -379,6 +870,36 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 82.55) (xy 22.86 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbff869f-010b-48dd-a198-2907e1902739")
+	)
+	(wire
+		(pts
+			(xy 19.05 82.55) (xy 22.86 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bee2e74d-b8a6-4235-85c0-a60577f40996")
+	)
+	(wire
+		(pts
+			(xy 26.67 87.63) (xy 22.86 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c67e74c7-a202-4663-bc78-01404ec76e57")
+	)
+	(wire
+		(pts
 			(xy 105.41 68.58) (xy 104.14 68.58)
 		)
 		(stroke
@@ -386,6 +907,16 @@
 			(type default)
 		)
 		(uuid "d3dcc3ae-737f-43b0-ad97-50e4b3959692")
+	)
+	(wire
+		(pts
+			(xy 38.1 77.47) (xy 34.29 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8685576-9354-40ae-a3fa-7d3f535ea4ff")
 	)
 	(wire
 		(pts
@@ -409,6 +940,36 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 77.47) (xy 54.61 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3e6e859-5e10-456e-88b9-328bcfba09f5")
+	)
+	(wire
+		(pts
+			(xy 38.1 82.55) (xy 34.29 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef1dddde-7e3d-4a16-a3b7-0ba3833d2184")
+	)
+	(wire
+		(pts
+			(xy 60.96 87.63) (xy 60.96 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f05a0ee1-d3c1-4516-994b-62fb39ee034f")
+	)
+	(wire
+		(pts
 			(xy 88.9 109.22) (xy 86.36 109.22)
 		)
 		(stroke
@@ -426,6 +987,16 @@
 			(type default)
 		)
 		(uuid "fdda8764-b631-4938-9099-2a93b8b8075f")
+	)
+	(wire
+		(pts
+			(xy 66.04 80.01) (xy 45.72 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe22055a-cba7-4897-8fcf-64d91688b29c")
 	)
 	(image
 		(at 233.68 120.65)
@@ -3367,7 +3938,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 130.81 109.22 0)
+		(at 151.13 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3378,7 +3949,7 @@
 	)
 	(hierarchical_label "3.3VA"
 		(shape input)
-		(at 113.03 121.92 0)
+		(at 152.4 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3400,7 +3971,7 @@
 	)
 	(hierarchical_label "GNDA"
 		(shape bidirectional)
-		(at 86.36 121.92 0)
+		(at 151.13 57.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3420,9 +3991,20 @@
 		)
 		(uuid "d0783e98-e44b-4d3e-b2d6-e86b0cc8806e")
 	)
+	(hierarchical_label "GND"
+		(shape bidirectional)
+		(at 17.78 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e7e9cf0a-207d-4f5e-bba3-18ec97596450")
+	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 127 109.22 90)
+		(lib_id "Device:R")
+		(at 41.91 87.63 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3430,10 +4012,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "45895acf-8c0f-4b62-9fb3-0c8f65b48b05")
-		(property "Reference" "TP14"
-			(at 123.698 104.14 90)
+		(uuid "022566a3-ea45-49f9-a39f-9bfeeb27a396")
+		(property "Reference" "R34"
+			(at 41.91 89.662 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3442,8 +4023,8 @@
 				)
 			)
 		)
-		(property "Value" "GND_POINT"
-			(at 123.698 106.68 90)
+		(property "Value" "1k"
+			(at 41.91 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3452,8 +4033,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105310-xx10_2x05_P2.50mm_Vertical"
-			(at 127 104.14 0)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 41.91 85.852 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3464,7 +4045,87 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 104.14 0)
+			(at 41.91 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 41.91 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c187d92-d83d-44d0-9ddc-eed6cbf92e24")
+		)
+		(pin "2"
+			(uuid "cac5dff8-4c69-4460-9263-d693ecbd7dd5")
+		)
+		(instances
+			(project "SuspensionBoard"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 147.32 38.1 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45895acf-8c0f-4b62-9fb3-0c8f65b48b05")
+		(property "Reference" "TP14"
+			(at 144.018 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND_POINT"
+			(at 144.018 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105310-xx10_2x05_P2.50mm_Vertical"
+			(at 147.32 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3475,7 +4136,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 127 109.22 0)
+			(at 147.32 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3498,8 +4159,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 107.95 121.92 90)
+		(lib_id "Device:R")
+		(at 41.91 77.47 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3507,10 +4168,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c3255d73-1ce5-4c37-81ed-6e4d0d45112d")
-		(property "Reference" "TP13"
-			(at 104.648 116.84 90)
+		(uuid "5302b0a0-6995-4a07-8adc-0b3e179b0192")
+		(property "Reference" "R28"
+			(at 42.164 75.184 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3519,8 +4179,8 @@
 				)
 			)
 		)
-		(property "Value" "3.3VA_POINT"
-			(at 104.648 119.38 90)
+		(property "Value" "1k"
+			(at 41.91 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3529,8 +4189,8 @@
 				)
 			)
 		)
-		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105310-xx10_2x05_P2.50mm_Vertical"
-			(at 107.95 116.84 0)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 41.91 75.692 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3541,7 +4201,280 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 116.84 0)
+			(at 41.91 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 41.91 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d70070e-1326-4513-880b-693d06fa9b48")
+		)
+		(pin "2"
+			(uuid "509e0311-a1ad-408f-a844-ac6fe5fd409c")
+		)
+		(instances
+			(project "SuspensionBoard"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lhrs_misc:Blue_LED")
+		(at 30.48 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a53f3f42-1458-4886-a980-750f7622931d")
+		(property "Reference" "D16"
+			(at 35.814 88.646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 35.56 86.614 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 30.48 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF"
+			(at 30.48 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 30.48 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 30.48 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C125103"
+			(at 30.48 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "LTST-C193TBKT-5A"
+			(at 30.48 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a49b53e4-39a1-4bf8-807f-5c881d04ccdd")
+		)
+		(pin "1"
+			(uuid "a60d82cf-5343-48fb-aa19-50011cf1390f")
+		)
+		(instances
+			(project "SuspensionBoard"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 41.91 82.55 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bf4b419a-d0c0-4b55-a7f6-534e24a8c4b2")
+		(property "Reference" "R27"
+			(at 41.91 84.582 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 41.91 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 41.91 80.772 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 41.91 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b494fb3-b514-49b2-9288-f624a7ea2554")
+		)
+		(pin "2"
+			(uuid "ca2e7796-cb16-4722-88c6-a5f310e1e97c")
+		)
+		(instances
+			(project "SuspensionBoard"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 147.32 46.99 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3255d73-1ce5-4c37-81ed-6e4d0d45112d")
+		(property "Reference" "TP13"
+			(at 144.018 41.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3VA_POINT"
+			(at 144.018 44.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105310-xx10_2x05_P2.50mm_Vertical"
+			(at 147.32 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3552,7 +4485,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 107.95 121.92 0)
+			(at 147.32 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3575,8 +4508,122 @@
 		)
 	)
 	(symbol
+		(lib_id "lhrs_misc:Blue_LED")
+		(at 30.48 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c33f8a6f-715c-4fd1-a9d4-2acf657a998e")
+		(property "Reference" "D17"
+			(at 35.56 78.232 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 35.56 76.454 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 30.48 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2007-0094/LTST-C193KGKT-5A.PDF"
+			(at 30.48 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 30.48 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 30.48 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C125103"
+			(at 30.48 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "LTST-C193TBKT-5A"
+			(at 30.48 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f1ee8b71-a29a-43b7-abcd-a5691af896d5")
+		)
+		(pin "1"
+			(uuid "7f686039-b339-4d0b-ba64-6c610d1cd17b")
+		)
+		(instances
+			(project "SuspensionBoard"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 82.55 121.92 90)
+		(at 147.32 57.15 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3587,7 +4634,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3ae343c-71d1-41b7-8dc0-8343a7bb6f67")
 		(property "Reference" "TP12"
-			(at 79.248 116.84 90)
+			(at 144.018 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3597,7 +4644,7 @@
 			)
 		)
 		(property "Value" "GNDA_POINT"
-			(at 79.248 119.38 90)
+			(at 144.018 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3607,7 +4654,7 @@
 			)
 		)
 		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105310-xx10_2x05_P2.50mm_Vertical"
-			(at 82.55 116.84 0)
+			(at 147.32 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3618,7 +4665,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 116.84 0)
+			(at 147.32 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3629,7 +4676,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 82.55 121.92 0)
+			(at 147.32 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3646,6 +4693,120 @@
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874"
 					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lhrs_misc:Blue_LED")
+		(at 30.48 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f6a3c53a-5da7-48c1-b243-3aebf37a67c1")
+		(property "Reference" "D15"
+			(at 35.56 83.312 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 35.56 81.534 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 30.48 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/641/LTST-C193TBKT-5A.pdf"
+			(at 30.48 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 30.48 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 30.48 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C125103"
+			(at 30.48 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "P/N" "LTST-C193TBKT-5A"
+			(at 30.48 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "019dae40-93da-42b1-b099-06b18f3c66a0")
+		)
+		(pin "1"
+			(uuid "68eb4831-d757-49af-8a55-441f38c12c04")
+		)
+		(instances
+			(project "SuspensionBoard"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/a17e150d-c0ca-4b81-ac9f-0470beae7874"
+					(reference "D15")
 					(unit 1)
 				)
 			)

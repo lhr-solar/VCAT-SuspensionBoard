@@ -1362,7 +1362,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 48.26) (xy 171.45 48.26)
+			(xy 168.91 48.26) (xy 171.45 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2242,7 +2242,7 @@
 	)
 	(hierarchical_label "LinPot_Output"
 		(shape output)
-		(at 170.18 48.26 180)
+		(at 168.91 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3332,7 +3332,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 189.484 54.102 90)
+			(at 183.642 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
