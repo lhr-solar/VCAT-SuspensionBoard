@@ -3860,7 +3860,7 @@
 		(uuid "074cc5cb-3b5c-4391-8d02-cfaf09fdded6")
 	)
 	(hierarchical_label "CAN_RX"
-		(shape bidirectional)
+		(shape input)
 		(at 105.41 68.58 0)
 		(effects
 			(font
@@ -3926,7 +3926,7 @@
 		(uuid "68af0fbf-afbc-4c5e-a7d7-180482026ba8")
 	)
 	(hierarchical_label "CAN_TX"
-		(shape bidirectional)
+		(shape output)
 		(at 105.41 76.2 0)
 		(effects
 			(font
@@ -4529,7 +4529,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "HB"
 			(at 35.56 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)

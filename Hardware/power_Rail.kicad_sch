@@ -834,16 +834,6 @@
 		)
 		(uuid "9a8b8d99-e469-46d0-8ff4-e985ffc93670")
 	)
-	(text "Galvanically Isolated"
-		(exclude_from_sim no)
-		(at 187.706 74.676 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9cf4831c-f97e-4e4e-a613-ec3da4b9402c")
-	)
 	(text "GND Test Points"
 		(exclude_from_sim no)
 		(at 128.27 43.18 0)
@@ -875,10 +865,16 @@
 		(uuid "41dff61f-afd0-433a-b23e-ca7263b1905c")
 	)
 	(junction
-		(at 222.25 81.28)
+		(at 220.98 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49858f3b-cf9c-4df4-9c5c-b1e5e928daa8")
+	)
+	(junction
+		(at 189.23 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b504f0d-6ef7-4e60-927c-9fac47d8dcd6")
 	)
 	(junction
 		(at 156.21 77.47)
@@ -887,16 +883,10 @@
 		(uuid "798562cd-2f2c-468f-be00-484d613640a6")
 	)
 	(junction
-		(at 218.44 81.28)
+		(at 217.17 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "86354991-56a6-4d18-9cc9-8154afd6155a")
-	)
-	(junction
-		(at 181.61 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "93b305e2-8daa-48db-934f-c679d5c81c38")
 	)
 	(junction
 		(at 156.21 91.44)
@@ -905,22 +895,16 @@
 		(uuid "a1839743-c355-4993-8a31-792a2f11547e")
 	)
 	(junction
+		(at 181.61 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfda7637-6f79-4afb-807d-f042877788b7")
+	)
+	(junction
 		(at 156.21 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d131c826-cae8-46e8-8216-f233a69e0f43")
-	)
-	(junction
-		(at 198.12 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5dfe2fb-6f4a-42fa-9933-d4a4b0233df3")
-	)
-	(junction
-		(at 109.22 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4461de4-8323-487e-b76b-975b4e93f757")
 	)
 	(junction
 		(at 109.22 81.28)
@@ -930,7 +914,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 104.14) (xy 218.44 104.14)
+			(xy 223.52 104.14) (xy 217.17 104.14)
 		)
 		(stroke
 			(width 0)
@@ -970,7 +954,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 81.28) (xy 224.79 81.28)
+			(xy 220.98 81.28) (xy 223.52 81.28)
 		)
 		(stroke
 			(width 0)
@@ -990,7 +974,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 85.09) (xy 218.44 81.28)
+			(xy 217.17 85.09) (xy 217.17 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1027,16 +1011,6 @@
 			(type default)
 		)
 		(uuid "34a2a63e-c892-4e1f-90c7-eae69177926d")
-	)
-	(wire
-		(pts
-			(xy 181.61 81.28) (xy 186.69 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3542c3b8-5ce2-4cc6-9dde-35e51afec111")
 	)
 	(wire
 		(pts
@@ -1080,7 +1054,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 92.71) (xy 203.2 92.71)
+			(xy 204.47 92.71) (xy 201.93 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1160,6 +1134,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 81.28) (xy 198.12 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "897ef405-58fa-4d5a-b1ba-1cacb6beeb83")
+	)
+	(wire
+		(pts
 			(xy 181.61 85.09) (xy 181.61 81.28)
 		)
 		(stroke
@@ -1190,17 +1174,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 81.28) (xy 198.12 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97f5fdf8-4dd7-4826-ab60-dfbc895b971f")
-	)
-	(wire
-		(pts
-			(xy 218.44 81.28) (xy 222.25 81.28)
+			(xy 217.17 81.28) (xy 220.98 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1250,7 +1224,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 88.9) (xy 205.74 92.71)
+			(xy 204.47 88.9) (xy 204.47 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1280,7 +1254,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 92.71) (xy 218.44 93.98)
+			(xy 217.17 92.71) (xy 217.17 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1290,7 +1264,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 81.28) (xy 218.44 81.28)
+			(xy 210.82 81.28) (xy 217.17 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1310,7 +1284,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 104.14) (xy 218.44 101.6)
+			(xy 217.17 104.14) (xy 217.17 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1320,7 +1294,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 76.2) (xy 222.25 81.28)
+			(xy 220.98 76.2) (xy 220.98 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1368,19 +1342,9 @@
 		)
 		(uuid "d3bdf710-ced5-4c24-9194-d5b13bf09a1a")
 	)
-	(polyline
-		(pts
-			(xy 187.96 76.2) (xy 187.96 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7777cc4-9811-4b8e-b3ee-4a52ff70f959")
-	)
 	(wire
 		(pts
-			(xy 198.12 76.2) (xy 198.12 81.28)
+			(xy 189.23 76.2) (xy 189.23 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1440,16 +1404,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 81.28) (xy 199.39 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee46222d-3518-4f4f-8e10-a5699aa32290")
-	)
-	(wire
-		(pts
 			(xy 137.16 81.28) (xy 140.97 81.28)
 		)
 		(stroke
@@ -1457,16 +1411,6 @@
 			(type default)
 		)
 		(uuid "f0697563-f7da-4ac4-84ab-edd8d1e4ff7e")
-	)
-	(label "MUX_OUT"
-		(at 189.23 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7ad8c5e6-cc17-4b04-bf9c-09e4996c23a6")
 	)
 	(label "+12v"
 		(at 78.74 81.28 0)
@@ -1477,16 +1421,6 @@
 			(justify left bottom)
 		)
 		(uuid "b1986a4e-5e5d-4286-8b72-46075016a015")
-	)
-	(label "MUX_OUT"
-		(at 186.69 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b620cb3c-35cb-4bf9-a2d7-e783f2ad3335")
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
@@ -1567,7 +1501,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 203.2 92.71 180)
+		(at 201.93 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1589,7 +1523,7 @@
 	)
 	(hierarchical_label "Vout"
 		(shape output)
-		(at 224.79 81.28 0)
+		(at 223.52 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1611,7 +1545,7 @@
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 224.79 104.14 0)
+		(at 223.52 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1742,7 +1676,7 @@
 	)
 	(symbol
 		(lib_id "lhrs_misc:Blue_LED")
-		(at 218.44 97.79 90)
+		(at 217.17 97.79 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1752,7 +1686,7 @@
 		(dnp no)
 		(uuid "2d900e62-8668-4906-9b8b-c63f31c6898c")
 		(property "Reference" "D14"
-			(at 221.488 97.282 90)
+			(at 220.218 97.282 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1763,7 +1697,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 221.488 99.822 90)
+			(at 220.218 99.822 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1774,7 +1708,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 218.44 97.79 0)
+			(at 217.17 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1785,7 +1719,7 @@
 			)
 		)
 		(property "Datasheet" "https://optoelectronics.liteon.com/upload/download/DS22-2000-223/LTST-C191KRKT.PDF"
-			(at 218.44 97.79 0)
+			(at 217.17 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1796,7 +1730,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 218.44 97.79 0)
+			(at 217.17 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1807,7 +1741,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 218.44 97.79 0)
+			(at 217.17 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1818,7 +1752,7 @@
 			)
 		)
 		(property "LCSC P/N" "C125103"
-			(at 218.44 97.79 0)
+			(at 217.17 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1829,7 +1763,7 @@
 			)
 		)
 		(property "P/N" "LTST-C193TBKT-5A"
-			(at 218.44 97.79 0)
+			(at 217.17 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2133,7 +2067,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "5k"
 			(at 77.47 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2200,7 +2134,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 218.44 88.9 0)
+		(at 217.17 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2210,7 +2144,7 @@
 		(dnp no)
 		(uuid "807aa768-5f3c-43b5-804d-3630b7df684b")
 		(property "Reference" "R31"
-			(at 213.36 87.63 0)
+			(at 212.09 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2221,7 +2155,7 @@
 			)
 		)
 		(property "Value" "150"
-			(at 218.44 90.678 90)
+			(at 217.17 90.678 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2232,7 +2166,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 216.662 88.9 90)
+			(at 215.392 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2243,7 +2177,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 88.9 0)
+			(at 217.17 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2254,7 +2188,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 218.44 88.9 0)
+			(at 217.17 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2280,91 +2214,6 @@
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
 					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 109.22 69.85 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94c93187-46de-496e-b7c9-da5d8cf3915a")
-		(property "Reference" "TP6"
-			(at 114.3 68.5799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "12V_Point"
-			(at 114.3 71.1199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105310-xx10_2x05_P2.50mm_Vertical"
-			(at 109.22 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 109.22 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7ac1735b-0f1c-4718-ab49-654ae879fb7f")
-		)
-		(instances
-			(project "power_Rail"
-				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
-					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -2457,7 +2306,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 222.25 76.2 0)
+		(at 220.98 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2468,7 +2317,7 @@
 		(fields_autoplaced yes)
 		(uuid "9855aaee-de0d-4df4-81e6-0414263133b7")
 		(property "Reference" "TP8"
-			(at 224.79 71.6279 0)
+			(at 223.52 71.6279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2479,7 +2328,7 @@
 			)
 		)
 		(property "Value" "3.3V_Point"
-			(at 224.79 74.1679 0)
+			(at 223.52 74.1679 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2490,7 +2339,7 @@
 			)
 		)
 		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105310-xx10_2x05_P2.50mm_Vertical"
-			(at 227.33 76.2 0)
+			(at 226.06 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2501,7 +2350,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 76.2 0)
+			(at 226.06 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2512,7 +2361,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 222.25 76.2 0)
+			(at 220.98 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3019,7 +2868,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 198.12 76.2 0)
+		(at 189.23 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3030,7 +2879,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec9b7411-cdd3-4b4a-a4ec-d09d7acc3df5")
 		(property "Reference" "TP9"
-			(at 200.66 71.6279 0)
+			(at 191.77 71.6279 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3041,7 +2890,7 @@
 			)
 		)
 		(property "Value" "5V_Point_Mux"
-			(at 200.66 74.1679 0)
+			(at 191.77 74.1679 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3052,7 +2901,7 @@
 			)
 		)
 		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105310-xx10_2x05_P2.50mm_Vertical"
-			(at 203.2 76.2 0)
+			(at 194.31 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3063,7 +2912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 76.2 0)
+			(at 194.31 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3074,7 +2923,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 198.12 76.2 0)
+			(at 189.23 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3124,7 +2973,7 @@
 				)
 			)
 		)
-		(property "Value" "SolderJumper_2_Open"
+		(property "Value" "PP_Bypass"
 			(at 97.79 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3455,7 +3304,7 @@
 		)
 	)
 	(sheet
-		(at 199.39 80.01)
+		(at 198.12 80.01)
 		(size 12.7 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3470,7 +3319,7 @@
 		)
 		(uuid "7da03bba-6e89-4676-b538-830a2c925006")
 		(property "Sheetname" "LDO"
-			(at 199.39 79.2984 0)
+			(at 198.12 79.2984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3481,7 +3330,7 @@
 			)
 		)
 		(property "Sheetfile" "LDO.kicad_sch"
-			(at 199.39 75.946 0)
+			(at 198.12 75.946 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3493,7 +3342,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 205.74 88.9 270)
+			(at 204.47 88.9 270)
 			(uuid "f1de5960-d2de-4218-96dd-7b8e5a916b8d")
 			(effects
 				(font
@@ -3503,7 +3352,7 @@
 			)
 		)
 		(pin "Vin" input
-			(at 199.39 81.28 180)
+			(at 198.12 81.28 180)
 			(uuid "7c28b136-2aba-4032-a8a0-3780adb64b91")
 			(effects
 				(font
@@ -3513,7 +3362,7 @@
 			)
 		)
 		(pin "Vout" output
-			(at 212.09 81.28 0)
+			(at 210.82 81.28 0)
 			(uuid "a29ceb26-bcf1-4fcc-a88d-840ca4a5e9da")
 			(effects
 				(font
