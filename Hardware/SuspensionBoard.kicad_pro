@@ -610,11 +610,11 @@
       "48PinMCU"
     ],
     [
-      "71833e86-1bf8-49c2-bd28-78b5a67f29b8",
+      "b15bd512-f81a-4520-82b3-5937b78027f8",
       "12VBuck"
     ],
     [
-      "7da03bba-6e89-4676-b538-830a2c925006",
+      "327f7d27-fafc-4ab2-b214-d55abcefb420",
       "LDO"
     ],
     [
@@ -626,11 +626,11 @@
       "USB-C_Connector"
     ],
     [
-      "9f68e68b-217f-480f-8087-626c4b14676f",
+      "48849f53-c09f-49b8-87d8-e9af12821d71",
       "PowerProtection"
     ],
     [
-      "64ef68fa-3e19-40cc-9fb9-67d60389f594",
+      "b6d6e3a7-7fd0-4579-a9e2-ac309c7dea94",
       "Power_Mux"
     ],
     [
@@ -642,7 +642,7 @@
       "MCU+USB"
     ],
     [
-      "5db358c0-18b3-459f-8665-95f1e3ffe97b",
+      "7d79c2f9-807f-4ee2-a62f-5cd7b214d6ec",
       "CAN_Transceiver"
     ]
   ],

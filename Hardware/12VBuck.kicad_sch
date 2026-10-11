@@ -5,129 +5,6 @@
 	(uuid "f2a6729b-b8d5-4133-ae64-a5e680928255")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1144,18 +1021,6 @@
 		)
 		(uuid "706daa59-e917-44b1-9e99-00ea9f7faf61")
 	)
-	(rectangle
-		(start 215.265 114.935)
-		(end 247.015 148.59)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "edd832f5-91c3-4fb0-b5b4-8f5f6d4796dc")
-	)
 	(text "12V Vout"
 		(exclude_from_sim no)
 		(at 223.012 72.898 0)
@@ -1166,15 +1031,15 @@
 		)
 		(uuid "2b41b39b-bf13-4b48-ab5a-8b5da00bc095")
 	)
-	(text "Test Points\n"
+	(text "Vin: 4.6V to 60V"
 		(exclude_from_sim no)
-		(at 230.378 117.856 0)
+		(at 74.93 84.836 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "8902470b-a4d4-412f-a1c8-1d6b98a7219f")
+		(uuid "56304c54-7458-4a22-9af6-d9f834b01a1e")
 	)
 	(text "Fsw 400khz"
 		(exclude_from_sim no)
@@ -1335,16 +1200,6 @@
 		)
 		(uuid "4bc1ae6b-db4d-46c2-94d2-b619e83cf983")
 	)
-	(polyline
-		(pts
-			(xy 215.265 120.015) (xy 247.015 120.015)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c899a87-23a1-45d9-911c-02ad3312e46b")
-	)
 	(wire
 		(pts
 			(xy 170.18 91.44) (xy 179.07 91.44)
@@ -1384,16 +1239,6 @@
 			(type default)
 		)
 		(uuid "617245ea-dad1-45ea-b898-e196953e8de2")
-	)
-	(wire
-		(pts
-			(xy 227.33 130.81) (xy 227.33 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79b4f045-1492-41f3-b438-a36c94c7fda5")
 	)
 	(wire
 		(pts
@@ -1563,7 +1408,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c341ae99-7232-4f8f-8519-e9881c327a95")
+		(uuid "c12f9e1e-c7a5-4f81-ac9d-e371fcbe4980")
 	)
 	(wire
 		(pts
@@ -7844,17 +7689,6 @@
 		)
 		(uuid "13eb82c5-6b44-4b8a-b253-c2b1fcd669cf")
 	)
-	(hierarchical_label "V_in_12V"
-		(shape input)
-		(at 227.33 130.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "58af6e10-cf20-4947-8e5d-cb298812265b")
-	)
 	(hierarchical_label "GND"
 		(shape input)
 		(at 179.07 102.87 180)
@@ -8000,17 +7834,35 @@
 			)
 		)
 		(pin "1"
-			(uuid "dcc053f7-7d3d-4fd1-896e-e65757cac4f3")
+			(uuid "280f94ac-7e10-4543-95ae-23cecaffdc5d")
 		)
 		(instances
-			(project "power_Rail"
-				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/71833e86-1bf8-49c2-bd28-78b5a67f29b8"
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/9243f342-8d42-4433-b049-031be1288812"
+					(reference "#FLG013")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
 					(reference "#FLG02")
 					(unit 1)
 				)
 			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/71833e86-1bf8-49c2-bd28-78b5a67f29b8"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/b15bd512-f81a-4520-82b3-5937b78027f8"
 					(reference "#FLG02")
 					(unit 1)
 				)
@@ -8040,7 +7892,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7u"
 			(at 96.52 87.6362 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8051,7 +7903,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 93.98 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8107,106 +7959,39 @@
 			)
 		)
 		(pin "1"
-			(uuid "70328acf-3061-4cd3-91a5-9077db2eda31")
+			(uuid "5f8c829e-0d94-4597-b6d1-11f962781726")
 		)
 		(pin "2"
-			(uuid "7dc19a87-cf95-479e-8cd4-df234e648e79")
+			(uuid "093f271d-939d-4ed8-8c31-8e39c7376cc0")
 		)
 		(instances
-			(project "power_Rail"
-				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/71833e86-1bf8-49c2-bd28-78b5a67f29b8"
-					(reference "C16")
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/9243f342-8d42-4433-b049-031be1288812"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "C1")
 					(unit 1)
 				)
 			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/71833e86-1bf8-49c2-bd28-78b5a67f29b8"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/b15bd512-f81a-4520-82b3-5937b78027f8"
 					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 227.33 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "534903a9-bc70-4eea-8652-865f25dff125")
-		(property "Reference" "TP1"
-			(at 229.87 123.6979 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "V_in_12V"
-			(at 222.25 122.428 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 232.41 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.41 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 227.33 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a7e990ec-c28b-4760-aafe-1e9167769f73")
-		)
-		(instances
-			(project "power_Rail"
-				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/71833e86-1bf8-49c2-bd28-78b5a67f29b8"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/71833e86-1bf8-49c2-bd28-78b5a67f29b8"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -8243,7 +8028,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LHRS_Passives:74439369082"
+		(property "Footprint" "LHRS_Power:XAL5050822MEC"
 			(at 161.29 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -8276,7 +8061,7 @@
 				)
 			)
 		)
-		(property "LCSC P/N" ""
+		(property "LCSC P/N" "C5309356"
 			(at 161.29 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -8287,7 +8072,7 @@
 				)
 			)
 		)
-		(property "P/N" "74439369082"
+		(property "P/N" "XAL5050-822MEC"
 			(at 161.29 86.36 90)
 			(hide yes)
 			(show_name no)
@@ -8299,20 +8084,38 @@
 			)
 		)
 		(pin "1"
-			(uuid "49a86b3a-72aa-4c07-965e-b1670f1a460f")
+			(uuid "c7e9a79e-6fc0-45e0-b61d-be193396dd81")
 		)
 		(pin "2"
-			(uuid "1447ffa9-f342-4808-92fc-41673fa8eb35")
+			(uuid "7159255e-ddbf-4f55-a45d-bde4cdde1f80")
 		)
 		(instances
-			(project "power_Rail"
-				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/71833e86-1bf8-49c2-bd28-78b5a67f29b8"
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/9243f342-8d42-4433-b049-031be1288812"
+					(reference "L3")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
 					(reference "L1")
 					(unit 1)
 				)
 			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/71833e86-1bf8-49c2-bd28-78b5a67f29b8"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/b15bd512-f81a-4520-82b3-5937b78027f8"
 					(reference "L1")
 					(unit 1)
 				)
@@ -8386,17 +8189,35 @@
 			)
 		)
 		(pin "1"
-			(uuid "0b6397db-5611-4e9b-b212-f5a8654e6987")
+			(uuid "f1965223-1f6f-41fc-893b-bfbf15ea99c5")
 		)
 		(instances
-			(project "power_Rail"
-				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/71833e86-1bf8-49c2-bd28-78b5a67f29b8"
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/9243f342-8d42-4433-b049-031be1288812"
+					(reference "#FLG015")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "#FLG09")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
 					(reference "#FLG04")
 					(unit 1)
 				)
 			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/71833e86-1bf8-49c2-bd28-78b5a67f29b8"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/b15bd512-f81a-4520-82b3-5937b78027f8"
 					(reference "#FLG04")
 					(unit 1)
 				)
@@ -8470,17 +8291,35 @@
 			)
 		)
 		(pin "1"
-			(uuid "3e0e0d8f-7408-4941-9657-6e83d9e5c2a8")
+			(uuid "ea558099-2b45-48cd-95d8-d4480a5bc526")
 		)
 		(instances
-			(project "power_Rail"
-				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/71833e86-1bf8-49c2-bd28-78b5a67f29b8"
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/9243f342-8d42-4433-b049-031be1288812"
+					(reference "#FLG011")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
 					(reference "#FLG01")
 					(unit 1)
 				)
 			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/71833e86-1bf8-49c2-bd28-78b5a67f29b8"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/b15bd512-f81a-4520-82b3-5937b78027f8"
 					(reference "#FLG01")
 					(unit 1)
 				)
@@ -8509,7 +8348,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22u"
 			(at 164.084 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8520,7 +8359,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 171.1452 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -8576,20 +8415,26 @@
 			)
 		)
 		(pin "2"
-			(uuid "ac8c2ed4-d533-406e-a471-5bf37c84d616")
+			(uuid "05e2161f-3ae6-4990-b02a-48ebc0696571")
 		)
 		(pin "1"
-			(uuid "ad497b8a-4a10-4ce6-930e-05eeb885d477")
+			(uuid "af76aa0f-1313-4259-a832-63afcf50baac")
 		)
 		(instances
-			(project "power_Rail"
-				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/71833e86-1bf8-49c2-bd28-78b5a67f29b8"
-					(reference "C19")
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "C4")
 					(unit 1)
 				)
 			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/71833e86-1bf8-49c2-bd28-78b5a67f29b8"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/b15bd512-f81a-4520-82b3-5937b78027f8"
 					(reference "C19")
 					(unit 1)
 				)
@@ -8618,7 +8463,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3uF"
+		(property "Value" "3.3u"
 			(at 189.992 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8629,7 +8474,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 187.6552 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -8685,20 +8530,26 @@
 			)
 		)
 		(pin "2"
-			(uuid "2beb4aac-e7f7-4b8e-8e49-0b8b935db4c8")
+			(uuid "bc1acade-defa-4e1a-bafa-d5c6874dc37f")
 		)
 		(pin "1"
-			(uuid "1f70d1af-2557-41df-82c2-f9c461215ed2")
+			(uuid "62a87d06-0863-4b64-823f-d436b046331c")
 		)
 		(instances
-			(project "power_Rail"
-				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/71833e86-1bf8-49c2-bd28-78b5a67f29b8"
-					(reference "C21")
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "C6")
 					(unit 1)
 				)
 			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/71833e86-1bf8-49c2-bd28-78b5a67f29b8"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/b15bd512-f81a-4520-82b3-5937b78027f8"
 					(reference "C21")
 					(unit 1)
 				)
@@ -8727,7 +8578,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 156.718 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8738,7 +8589,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 153.67 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -8794,20 +8645,38 @@
 			)
 		)
 		(pin "1"
-			(uuid "e83da010-6430-4072-9525-9146c019682a")
+			(uuid "5836b8ab-fa56-47f1-8634-69b00a25ef78")
 		)
 		(pin "2"
-			(uuid "dadc3e4e-de21-4341-8bb5-c865d0043949")
+			(uuid "92e85899-2f88-4b56-b952-b5b2a40385f9")
 		)
 		(instances
-			(project "power_Rail"
-				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/71833e86-1bf8-49c2-bd28-78b5a67f29b8"
-					(reference "C18")
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/9243f342-8d42-4433-b049-031be1288812"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "C2")
 					(unit 1)
 				)
 			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/71833e86-1bf8-49c2-bd28-78b5a67f29b8"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/b15bd512-f81a-4520-82b3-5937b78027f8"
 					(reference "C18")
 					(unit 1)
 				)
@@ -8881,17 +8750,35 @@
 			)
 		)
 		(pin "1"
-			(uuid "2b2a09cb-f5c2-44f2-acec-675da9e4b4a6")
+			(uuid "43421a8f-a37e-4dfd-9e1c-51b8bf2329d4")
 		)
 		(instances
-			(project "power_Rail"
-				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/71833e86-1bf8-49c2-bd28-78b5a67f29b8"
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/9243f342-8d42-4433-b049-031be1288812"
+					(reference "#FLG014")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "#FLG08")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
 					(reference "#FLG03")
 					(unit 1)
 				)
 			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/71833e86-1bf8-49c2-bd28-78b5a67f29b8"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/b15bd512-f81a-4520-82b3-5937b78027f8"
 					(reference "#FLG03")
 					(unit 1)
 				)
@@ -8988,20 +8875,38 @@
 			)
 		)
 		(pin "1"
-			(uuid "c1ac6a38-f26e-4038-b037-877e00a94137")
+			(uuid "a8411bda-995e-438f-ba05-680f6fba0e23")
 		)
 		(pin "2"
-			(uuid "0a3bf260-a53c-4b0e-a0cb-ea616ce5103f")
+			(uuid "254e1830-33f5-4cd6-8480-1278e4a90c6c")
 		)
 		(instances
-			(project "power_Rail"
-				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/71833e86-1bf8-49c2-bd28-78b5a67f29b8"
-					(reference "R9")
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/9243f342-8d42-4433-b049-031be1288812"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "R1")
 					(unit 1)
 				)
 			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/71833e86-1bf8-49c2-bd28-78b5a67f29b8"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/b15bd512-f81a-4520-82b3-5937b78027f8"
 					(reference "R9")
 					(unit 1)
 				)
@@ -9031,7 +8936,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 105.41 90.1762 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9098,20 +9003,26 @@
 			)
 		)
 		(pin "1"
-			(uuid "ec468175-4fcf-4c81-a9ad-765808b9bb0f")
+			(uuid "5a503b1a-1d2c-4725-839e-1d1b81497ea6")
 		)
 		(pin "2"
-			(uuid "d607a2e1-6b01-4695-8af3-050818d2e041")
+			(uuid "0741cb29-3afc-4b8a-9e3d-47ceb8966423")
 		)
 		(instances
-			(project "power_Rail"
-				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/71833e86-1bf8-49c2-bd28-78b5a67f29b8"
-					(reference "C17")
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "C5")
 					(unit 1)
 				)
 			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/71833e86-1bf8-49c2-bd28-78b5a67f29b8"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/b15bd512-f81a-4520-82b3-5937b78027f8"
 					(reference "C17")
 					(unit 1)
 				)
@@ -9208,20 +9119,38 @@
 			)
 		)
 		(pin "1"
-			(uuid "38fbc601-bab5-45d9-9a67-0d26e2eb3595")
+			(uuid "ed72adb1-52dd-41b9-b91d-1bcdb0eeb668")
 		)
 		(pin "2"
-			(uuid "91d22406-2d39-4cdd-8aae-6d146e234e10")
+			(uuid "a42b1cc6-2465-46c5-83e4-c28a3865990c")
 		)
 		(instances
-			(project "power_Rail"
-				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/71833e86-1bf8-49c2-bd28-78b5a67f29b8"
-					(reference "R10")
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/331f457b-ed4e-4d4a-ad6d-c8acb2febfed/9243f342-8d42-4433-b049-031be1288812"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "PS-Buck"
+				(path "/ad6c7df0-eb90-4670-9aa8-3e2007aefc2d/41c72b07-cf60-4ca9-96a7-6ae96aaa0c90"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "R2")
 					(unit 1)
 				)
 			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/71833e86-1bf8-49c2-bd28-78b5a67f29b8"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/b15bd512-f81a-4520-82b3-5937b78027f8"
 					(reference "R10")
 					(unit 1)
 				)
@@ -9250,7 +9179,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22uF"
+		(property "Value" "22u"
 			(at 173.482 96.774 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9261,7 +9190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 180.0352 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -9317,20 +9246,26 @@
 			)
 		)
 		(pin "2"
-			(uuid "3f1ca347-5dd8-4826-bfa4-5209a12c9ea1")
+			(uuid "f8d7f479-3e92-4128-8141-c6a4d4487cfc")
 		)
 		(pin "1"
-			(uuid "4ea3a763-b658-415b-a46d-0873accb237f")
+			(uuid "3374be08-ad4b-4056-b044-bcd494975333")
 		)
 		(instances
-			(project "power_Rail"
-				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/71833e86-1bf8-49c2-bd28-78b5a67f29b8"
-					(reference "C20")
+			(project "12-5vBuck"
+				(path "/0fbc6656-132d-42e4-bdc9-f0a11468b104/973e334b-57f3-4378-b197-420dc86c33e2"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "C5")
 					(unit 1)
 				)
 			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/71833e86-1bf8-49c2-bd28-78b5a67f29b8"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/b15bd512-f81a-4520-82b3-5937b78027f8"
 					(reference "C20")
 					(unit 1)
 				)
@@ -9404,33 +9339,55 @@
 				)
 			)
 		)
+		(property "P/N" "LMR51635XDDCR"
+			(at 114.3 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC P/N" "C42432812"
+			(at 114.3 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "4"
-			(uuid "23b81d7a-05f4-4097-9171-bb912f5145b1")
+			(uuid "d1afdcbd-1ad1-4ee0-a46e-15a36aac9cbc")
 		)
 		(pin "3"
-			(uuid "e9646abf-436c-4c0b-a2a3-adf35c183c7a")
+			(uuid "b3b9f68d-714b-4a22-b0ab-5cced058e602")
 		)
 		(pin "5"
-			(uuid "4c0b60a7-7990-4d23-8ab3-551875f2b20a")
+			(uuid "3348a68a-c357-4685-b19b-1cec590a8044")
 		)
 		(pin "2"
-			(uuid "5a793e09-a14c-47a1-a2b0-c489fca26e39")
+			(uuid "2358ff33-1979-455f-baeb-885f75abc3d4")
 		)
 		(pin "6"
-			(uuid "5faaf42e-7d60-49ec-af3a-efe24518e419")
+			(uuid "1531b8fc-cfd3-4123-859c-920ac9f7e62b")
 		)
 		(pin "1"
-			(uuid "ccdcfbc1-347d-4b55-8201-19095d1f152a")
+			(uuid "4429cce5-b495-436a-8e9d-e723b7803070")
 		)
 		(instances
-			(project "power_Rail"
-				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db/71833e86-1bf8-49c2-bd28-78b5a67f29b8"
-					(reference "U2")
+			(project "12VBuck"
+				(path "/f2a6729b-b8d5-4133-ae64-a5e680928255"
+					(reference "U1")
 					(unit 1)
 				)
 			)
 			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/71833e86-1bf8-49c2-bd28-78b5a67f29b8"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68/b15bd512-f81a-4520-82b3-5937b78027f8"
 					(reference "U2")
 					(unit 1)
 				)

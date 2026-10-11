@@ -3121,6 +3121,237 @@
 		)
 	)
 	(sheet
+		(at 198.12 77.47)
+		(size 12.7 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "327f7d27-fafc-4ab2-b214-d55abcefb420")
+		(property "Sheetname" "LDO"
+			(at 198.12 76.7584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LDO.kicad_sch"
+			(at 198.12 89.4846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 204.47 88.9 270)
+			(uuid "3c3e4e00-7c68-4cfc-bc78-8c599b24eceb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vin" input
+			(at 198.12 81.28 180)
+			(uuid "9d84ba7a-f087-4a58-9ab3-7af1db1dc1ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout" output
+			(at 210.82 81.28 0)
+			(uuid "b0997346-0a0a-4313-894b-eae43a3f4ce2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SuspensionBoard"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 92.71 76.2)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "48849f53-c09f-49b8-87d8-e9af12821d71")
+		(property "Sheetname" "PowerProtection"
+			(at 92.71 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerProtection.kicad_sch"
+			(at 92.71 89.4846 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 99.06 88.9 270)
+			(uuid "06ded42f-fbae-4b5c-a2f7-83c49e1be300")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vin" input
+			(at 92.71 81.28 180)
+			(uuid "bf1e33d5-7562-4c45-8cbd-5bacaa8e43e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Vout" output
+			(at 105.41 81.28 0)
+			(uuid "6f573654-61c3-48e7-b995-026310126a79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SuspensionBoard"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 77.47)
+		(size 22.86 10.16)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "b15bd512-f81a-4520-82b3-5937b78027f8")
+		(property "Sheetname" "12VBuck"
+			(at 114.3 76.7584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "12VBuck.kicad_sch"
+			(at 114.3 88.2146 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 125.73 87.63 270)
+			(uuid "fec05460-1e3c-4c99-88f4-5a07fcbe81cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_in_12V" input
+			(at 114.3 81.28 180)
+			(uuid "e758e766-552c-41b3-b683-546349aadc78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_out_5V" output
+			(at 137.16 81.28 0)
+			(uuid "03ff7877-f266-4d3f-9392-735600bc28fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SuspensionBoard"
+				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 158.75 74.93)
 		(size 17.78 27.94)
 		(exclude_from_sim no)
@@ -3135,7 +3366,7 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "64ef68fa-3e19-40cc-9fb9-67d60389f594")
+		(uuid "b6d6e3a7-7fd0-4579-a9e2-ac309c7dea94")
 		(property "Sheetname" "Power_Mux"
 			(at 158.75 74.2184 0)
 			(show_name no)
@@ -3161,7 +3392,7 @@
 		)
 		(pin "MUX_OUT" output
 			(at 176.53 81.28 0)
-			(uuid "72eefc75-e639-413b-894b-74a9731ba909")
+			(uuid "9ba87b72-f7b7-44e8-9e19-de69d12a971b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3171,7 +3402,7 @@
 		)
 		(pin "MX_GND" input
 			(at 158.75 101.6 180)
-			(uuid "8bd6f8ef-fffb-4070-80a8-f10649be48f0")
+			(uuid "8f7307e6-9806-4132-a72a-649f0007ba50")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3181,7 +3412,7 @@
 		)
 		(pin "PR1" input
 			(at 158.75 91.44 180)
-			(uuid "291a9ef7-959c-4b67-9c67-26f1448318d3")
+			(uuid "2acc0110-0dc4-41fe-820e-1050d51548b8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3191,7 +3422,7 @@
 		)
 		(pin "VIN_1" input
 			(at 158.75 81.28 180)
-			(uuid "907395a2-f23d-45b4-9df1-a9e020a3fb64")
+			(uuid "b4698593-8e01-4fc0-890f-ae67c1e813c3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3201,7 +3432,7 @@
 		)
 		(pin "VIN_2" input
 			(at 158.75 77.47 180)
-			(uuid "7083c890-b7a4-41f9-84d6-32b0afc6a687")
+			(uuid "73e17ae1-b460-450f-bb8a-9bfbf134becc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3213,254 +3444,6 @@
 			(project "SuspensionBoard"
 				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
 					(page "8")
-				)
-			)
-			(project "power_Rail"
-				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 114.3 78.74)
-		(size 22.86 8.89)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "71833e86-1bf8-49c2-bd28-78b5a67f29b8")
-		(property "Sheetname" "12VBuck"
-			(at 114.3 78.0284 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "12VBuck.kicad_sch"
-			(at 114.3 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "GND" input
-			(at 125.73 87.63 270)
-			(uuid "af6aa48a-68d0-4813-aa06-5dc753d8ef37")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "V_in_12V" input
-			(at 114.3 81.28 180)
-			(uuid "a2b8f797-1d2a-4b34-9860-acfdac5cd065")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "V_out_5V" output
-			(at 137.16 81.28 0)
-			(uuid "a101aee2-5576-4ffe-9e16-d109397f30c5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
-					(page "3")
-				)
-			)
-			(project "power_Rail"
-				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 198.12 80.01)
-		(size 12.7 8.89)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "7da03bba-6e89-4676-b538-830a2c925006")
-		(property "Sheetname" "LDO"
-			(at 198.12 79.2984 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "LDO.kicad_sch"
-			(at 198.12 75.946 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "GND" input
-			(at 204.47 88.9 270)
-			(uuid "f1de5960-d2de-4218-96dd-7b8e5a916b8d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Vin" input
-			(at 198.12 81.28 180)
-			(uuid "7c28b136-2aba-4032-a8a0-3780adb64b91")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Vout" output
-			(at 210.82 81.28 0)
-			(uuid "a29ceb26-bcf1-4fcc-a88d-840ca4a5e9da")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
-					(page "4")
-				)
-			)
-			(project "power_Rail"
-				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 92.71 78.74)
-		(size 12.7 10.16)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "9f68e68b-217f-480f-8087-626c4b14676f")
-		(property "Sheetname" "PowerProtection"
-			(at 91.186 77.216 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "PowerProtection.kicad_sch"
-			(at 86.614 73.406 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "GND" input
-			(at 99.06 88.9 270)
-			(uuid "8953170e-bcb0-491f-863e-bcec7476d841")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Vin" input
-			(at 92.71 81.28 180)
-			(uuid "d5d70dd6-8266-4ff8-b94f-5e03eb4be85d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Vout" output
-			(at 105.41 81.28 0)
-			(uuid "b985997d-7547-41c2-a4d7-5d85d87cf2b5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "SuspensionBoard"
-				(path "/f9dc491a-b8c6-4623-9728-13837ac4bba3/bb9a0353-c4c7-4944-b892-c85c279a5c68"
-					(page "7")
-				)
-			)
-			(project "power_Rail"
-				(path "/aa7870c6-fc66-461c-9d29-908d06b1b5db"
-					(page "2")
 				)
 			)
 		)
