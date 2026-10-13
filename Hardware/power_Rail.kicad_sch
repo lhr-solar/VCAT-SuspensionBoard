@@ -2154,7 +2154,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "150"
+		(property "Value" "250"
 			(at 217.17 90.678 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2616,8 +2616,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330"
-			(at 181.61 90.678 90)
+		(property "Value" "2k"
+			(at 181.61 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
