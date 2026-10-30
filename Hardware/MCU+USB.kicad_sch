@@ -523,8 +523,8 @@
 		(uuid "4be04527-155c-4e8d-ba6c-2dfe6edd1ef3")
 	)
 	(no_connect
-		(at 66.04 59.69)
-		(uuid "02816c17-ed73-4006-acfd-9c6f507a27f7")
+		(at 104.14 60.96)
+		(uuid "02abc2f2-51ed-4ec8-9624-38c7e315d887")
 	)
 	(no_connect
 		(at 66.04 92.71)
@@ -543,20 +543,12 @@
 		(uuid "2f17e60c-dcb0-4dc2-a200-d80f0f105678")
 	)
 	(no_connect
-		(at 144.78 81.28)
+		(at 135.89 81.28)
 		(uuid "31e632c3-4ea2-4fe3-85ad-c16821ab8ca2")
 	)
 	(no_connect
-		(at 66.04 52.07)
-		(uuid "34c7ef6e-ba2e-4a03-9cab-1c800c53862f")
-	)
-	(no_connect
-		(at 66.04 49.53)
-		(uuid "395f7071-b2a2-4f75-989f-c47a908359fc")
-	)
-	(no_connect
-		(at 66.04 57.15)
-		(uuid "504916d0-64e4-46f2-b318-55ca4d53b99a")
+		(at 104.14 68.58)
+		(uuid "430b77b9-b0a6-4675-8b7a-f052c7a7cdd9")
 	)
 	(no_connect
 		(at 66.04 62.23)
@@ -567,16 +559,20 @@
 		(uuid "741699bc-b3f4-4aaa-bbe7-f2e56dc8b7fe")
 	)
 	(no_connect
-		(at 104.14 58.42)
-		(uuid "7780c0c5-d440-4718-b00d-9a0e44e870ef")
-	)
-	(no_connect
 		(at 66.04 77.47)
 		(uuid "8a5588aa-4d28-4ec4-b97a-e71f3454aee4")
 	)
 	(no_connect
+		(at 104.14 55.88)
+		(uuid "8b53efcb-c22c-4872-8433-60569f257331")
+	)
+	(no_connect
 		(at 104.14 71.12)
 		(uuid "8e5ba58a-95fa-40be-88d8-089b038ffbcd")
+	)
+	(no_connect
+		(at 66.04 82.55)
+		(uuid "941f62e8-f366-4504-ba1a-b2021a9664c3")
 	)
 	(no_connect
 		(at 66.04 64.77)
@@ -587,15 +583,23 @@
 		(uuid "b113109d-844b-46d8-a310-2dc1521b6d57")
 	)
 	(no_connect
-		(at 144.78 78.74)
+		(at 104.14 63.5)
+		(uuid "c7236996-2504-44e5-b7d2-84b38d8e8570")
+	)
+	(no_connect
+		(at 135.89 78.74)
 		(uuid "c920c0db-405b-4346-b757-c4ac897977bc")
+	)
+	(no_connect
+		(at 66.04 52.07)
+		(uuid "caf582fb-7570-47b8-9910-52dfcb0eff1a")
 	)
 	(no_connect
 		(at 104.14 97.79)
 		(uuid "cd81764a-1a59-461f-982c-988730f500f7")
 	)
 	(no_connect
-		(at 104.14 63.5)
+		(at 104.14 58.42)
 		(uuid "ce3f08b4-3bab-44f2-8db1-9de6dc97ebd4")
 	)
 	(no_connect
@@ -611,22 +615,8 @@
 		(uuid "e17a5ed2-3ac4-4f78-9b24-bb8334443edf")
 	)
 	(no_connect
-		(at 104.14 66.04)
-		(uuid "f6d60c18-13b1-416f-8e55-02d1e09685f4")
-	)
-	(no_connect
-		(at 104.14 60.96)
-		(uuid "fcf75fe3-3934-436c-8dc8-fbaf45f922a0")
-	)
-	(wire
-		(pts
-			(xy 104.14 78.74) (xy 115.57 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01e4d764-66f5-4684-a4d1-ba370b03bb28")
+		(at 104.14 76.2)
+		(uuid "e8736215-488b-4cb7-966d-f46dc0852e96")
 	)
 	(wire
 		(pts
@@ -647,6 +637,16 @@
 			(type default)
 		)
 		(uuid "100a914e-0fe8-4f95-8602-1a7f83d5ece8")
+	)
+	(wire
+		(pts
+			(xy 62.23 57.15) (xy 66.04 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1883da3b-2d0b-404d-bd80-def6262cc0c0")
 	)
 	(wire
 		(pts
@@ -680,13 +680,23 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 83.82) (xy 144.78 83.82)
+			(xy 138.43 83.82) (xy 135.89 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2fb3c9cb-10fd-4933-bc14-ea938d0ffa77")
+	)
+	(wire
+		(pts
+			(xy 104.14 78.74) (xy 115.57 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3259c731-746d-43b1-b1ba-37df0343aa2c")
 	)
 	(wire
 		(pts
@@ -730,7 +740,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 86.36) (xy 148.59 86.36)
+			(xy 135.89 86.36) (xy 138.43 86.36)
 		)
 		(stroke
 			(width 0)
@@ -757,16 +767,6 @@
 			(type default)
 		)
 		(uuid "4661b840-fcd1-4305-8c10-cc75c983ec4d")
-	)
-	(wire
-		(pts
-			(xy 104.14 81.28) (xy 115.57 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c839559-5e6a-4f94-91cd-654667baa822")
 	)
 	(wire
 		(pts
@@ -810,23 +810,13 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 55.88) (xy 110.49 55.88)
+			(xy 62.23 49.53) (xy 66.04 49.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8ba07e06-7d80-437d-b94b-db15193fa2de")
-	)
-	(wire
-		(pts
-			(xy 104.14 76.2) (xy 105.41 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f785067-db21-43f2-998f-59896d030503")
+		(uuid "8203a692-59d2-4716-bb13-d7c5dcd8df82")
 	)
 	(wire
 		(pts
@@ -847,6 +837,16 @@
 			(type default)
 		)
 		(uuid "a29b67de-4126-4e5d-86ca-38079bc748ef")
+	)
+	(wire
+		(pts
+			(xy 62.23 59.69) (xy 66.04 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa7d3af5-9632-40ad-bdc8-863b56803969")
 	)
 	(wire
 		(pts
@@ -900,16 +900,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 68.58) (xy 104.14 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3dcc3ae-737f-43b0-ad97-50e4b3959692")
-	)
-	(wire
-		(pts
 			(xy 38.1 77.47) (xy 34.29 77.47)
 		)
 		(stroke
@@ -937,6 +927,16 @@
 			(type default)
 		)
 		(uuid "e021fb1a-c1c9-4875-94b6-76a796c1ca30")
+	)
+	(wire
+		(pts
+			(xy 104.14 81.28) (xy 115.57 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e056a1ea-b47c-4c75-a6db-762217e59fe1")
 	)
 	(wire
 		(pts
@@ -970,6 +970,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 66.04) (xy 107.95 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faeb2bc5-f949-4c2f-b0a0-1eefc6594275")
+	)
+	(wire
+		(pts
 			(xy 88.9 109.22) (xy 86.36 109.22)
 		)
 		(stroke
@@ -977,16 +987,6 @@
 			(type default)
 		)
 		(uuid "fc6efebe-5f23-4089-872a-ce92c23e5f3b")
-	)
-	(wire
-		(pts
-			(xy 60.96 82.55) (xy 66.04 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdda8764-b631-4938-9099-2a93b8b8075f")
 	)
 	(wire
 		(pts
@@ -999,7 +999,7 @@
 		(uuid "fe22055a-cba7-4897-8fcf-64d91688b29c")
 	)
 	(image
-		(at 233.68 120.65)
+		(at 88.9 151.13)
 		(scale 0.533527)
 		(uuid "c27ff79a-53e2-4639-8886-e5187d5c9922")
 		(data "iVBORw0KGgoAAAANSUhEUgAAAzoAAALsCAYAAAArocIyAAAMUmlDQ1BJQ0MgUHJvZmlsZQAASImV"
@@ -3848,31 +3848,9 @@
 			"AAiAAAiAQGkQ+H8nVHo34hykLAAAAABJRU5ErkJggg=="
 		)
 	)
-	(hierarchical_label "LINPOT_SIGNAL"
-		(shape input)
-		(at 110.49 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "074cc5cb-3b5c-4391-8d02-cfaf09fdded6")
-	)
-	(hierarchical_label "CAN_RX"
-		(shape input)
-		(at 105.41 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "149cec3a-b4c7-4633-8928-3ff7035d225f")
-	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
-		(at 148.59 86.36 0)
+		(at 138.43 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3881,16 +3859,16 @@
 		)
 		(uuid "1622f42f-b8c2-4e5b-b100-daf5f7cd311e")
 	)
-	(hierarchical_label "AMP_LINPOT"
+	(hierarchical_label "LINPOT_SIGNAL"
 		(shape input)
-		(at 60.96 82.55 180)
+		(at 62.23 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "201646dd-4066-405d-bca5-e5a42ec5edcb")
+		(uuid "174ce5b3-68b4-48b8-9e9f-760affe72e67")
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
@@ -3903,9 +3881,20 @@
 		)
 		(uuid "53a6485a-544f-4ba9-af30-7c76c1608d4e")
 	)
+	(hierarchical_label "CAN_RX"
+		(shape input)
+		(at 62.23 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "59fbc6ea-99cb-4013-a630-f6b3499b110b")
+	)
 	(hierarchical_label "USB_5V"
 		(shape output)
-		(at 148.59 83.82 0)
+		(at 138.43 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3924,17 +3913,6 @@
 			(justify left)
 		)
 		(uuid "68af0fbf-afbc-4c5e-a7d7-180482026ba8")
-	)
-	(hierarchical_label "CAN_TX"
-		(shape output)
-		(at 105.41 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6d7a25a3-1530-4c6b-83e9-9486af45a7d0")
 	)
 	(hierarchical_label "GND"
 		(shape bidirectional)
@@ -3957,6 +3935,28 @@
 			(justify left)
 		)
 		(uuid "78b1fe7b-a966-4568-b5fb-8215c940964b")
+	)
+	(hierarchical_label "CAN_TX"
+		(shape output)
+		(at 62.23 59.69 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7f831666-e003-45d7-92ed-bdab5b90675c")
+	)
+	(hierarchical_label "AMP_LINPOT"
+		(shape input)
+		(at 107.95 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "97616cc4-2e38-4a4a-9749-f48ed314ed58")
 	)
 	(hierarchical_label "GNDA"
 		(shape bidirectional)
@@ -4033,7 +4033,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 41.91 85.852 90)
 			(hide yes)
 			(show_name no)
@@ -4057,6 +4057,94 @@
 		)
 		(property "Description" "Resistor"
 			(at 41.91 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC MFG P/N" ""
+			(at 41.91 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 41.91 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 41.91 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 41.91 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 41.91 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 41.91 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 41.91 87.63 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 41.91 87.63 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4113,7 +4201,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105310-xx10_2x05_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 147.32 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -4137,6 +4225,94 @@
 		)
 		(property "Description" "test point"
 			(at 147.32 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC MFG P/N" ""
+			(at 147.32 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 147.32 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 147.32 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 147.32 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 147.32 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 147.32 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 147.32 38.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 147.32 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4189,7 +4365,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 41.91 75.692 90)
 			(hide yes)
 			(show_name no)
@@ -4213,6 +4389,94 @@
 		)
 		(property "Description" "Resistor"
 			(at 41.91 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC MFG P/N" ""
+			(at 41.91 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 41.91 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 41.91 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 41.91 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 41.91 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 41.91 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 41.91 77.47 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 41.91 77.47 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4336,6 +4600,94 @@
 				)
 			)
 		)
+		(property "LCSC MFG P/N" ""
+			(at 30.48 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 30.48 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 30.48 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 30.48 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 30.48 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 30.48 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 30.48 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 30.48 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a49b53e4-39a1-4bf8-807f-5c881d04ccdd")
 		)
@@ -4382,7 +4734,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 41.91 80.772 90)
 			(hide yes)
 			(show_name no)
@@ -4406,6 +4758,94 @@
 		)
 		(property "Description" "Resistor"
 			(at 41.91 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC MFG P/N" ""
+			(at 41.91 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 41.91 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 41.91 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 41.91 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 41.91 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 41.91 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 41.91 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 41.91 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4462,7 +4902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105310-xx10_2x05_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 147.32 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4486,6 +4926,94 @@
 		)
 		(property "Description" "test point"
 			(at 147.32 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC MFG P/N" ""
+			(at 147.32 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 147.32 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 147.32 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 147.32 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 147.32 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 147.32 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 147.32 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 147.32 46.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4606,6 +5134,94 @@
 				)
 			)
 		)
+		(property "LCSC MFG P/N" ""
+			(at 30.48 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 30.48 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 30.48 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 30.48 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 30.48 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 30.48 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 30.48 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 30.48 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f1ee8b71-a29a-43b7-abcd-a5691af896d5")
 		)
@@ -4653,7 +5269,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LHRS_Connectors:Molex_Nano-Fit_105310-xx10_2x05_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 147.32 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4677,6 +5293,94 @@
 		)
 		(property "Description" "test point"
 			(at 147.32 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC MFG P/N" ""
+			(at 147.32 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 147.32 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 147.32 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 147.32 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 147.32 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 147.32 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 147.32 57.15 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 147.32 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4797,6 +5501,94 @@
 				)
 			)
 		)
+		(property "LCSC MFG P/N" ""
+			(at 30.48 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 30.48 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" ""
+			(at 30.48 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "STANDARD" ""
+			(at 30.48 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 30.48 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S3.1" ""
+			(at 30.48 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S4.1" ""
+			(at 30.48 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KLC_S6.2" ""
+			(at 30.48 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "019dae40-93da-42b1-b099-06b18f3c66a0")
 		)
@@ -4814,11 +5606,12 @@
 	)
 	(sheet
 		(at 115.57 76.2)
-		(size 29.21 12.7)
+		(size 20.32 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -4826,9 +5619,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "329acb82-e278-4114-ae2d-06a45b64bcf5")
+		(uuid "d2349493-1ade-488b-973c-c9d9b7d830ae")
 		(property "Sheetname" "USB-C_Connector"
-			(at 115.57 75.692 0)
+			(at 115.57 75.4884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4839,7 +5632,7 @@
 			)
 		)
 		(property "Sheetfile" "USB-C_Connector.kicad_sch"
-			(at 115.57 94.488 0)
+			(at 115.57 89.4846 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4851,7 +5644,7 @@
 			)
 		)
 		(property "Author" "Shuopu Wang"
-			(at 87.63 -54.61 0)
+			(at 0 3.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4862,7 +5655,7 @@
 			)
 		)
 		(property "Date Modified" "9/5/2026"
-			(at 87.63 -54.61 0)
+			(at 0 3.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4873,8 +5666,8 @@
 			)
 		)
 		(pin "CC1" bidirectional
-			(at 144.78 78.74 0)
-			(uuid "1fe10ca9-75d5-46a0-9b60-67259b4a5619")
+			(at 135.89 78.74 0)
+			(uuid "3906700f-ebef-4659-8f2b-b9897f0fa277")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4883,8 +5676,8 @@
 			)
 		)
 		(pin "CC2" bidirectional
-			(at 144.78 81.28 0)
-			(uuid "b61adf95-5766-400e-9551-2e435017d7ee")
+			(at 135.89 81.28 0)
+			(uuid "7426a8c3-f0c2-4dab-b74f-a13e5be7c45e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4893,8 +5686,8 @@
 			)
 		)
 		(pin "GND" input
-			(at 144.78 86.36 0)
-			(uuid "d410bb20-da90-413c-8f0c-83a831538b7c")
+			(at 135.89 86.36 0)
+			(uuid "c30b6693-46f7-413b-bf2e-647d2c3f3bbb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4903,8 +5696,8 @@
 			)
 		)
 		(pin "USB_5V" output
-			(at 144.78 83.82 0)
-			(uuid "99ae460e-d4f1-4797-b398-ad7004b3cba4")
+			(at 135.89 83.82 0)
+			(uuid "8dd4fea7-9c63-4cd8-b447-feb40e18aba1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4912,9 +5705,9 @@
 				(justify right)
 			)
 		)
-		(pin "USB_DM" bidirectional
+		(pin "USB_D+" bidirectional
 			(at 115.57 78.74 180)
-			(uuid "dc1e4c4b-f23d-450f-9938-ca10b5e92b7d")
+			(uuid "39b49ed0-c4c7-447e-9606-2e2822dd06f2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4922,9 +5715,9 @@
 				(justify left)
 			)
 		)
-		(pin "USB_DP" bidirectional
+		(pin "USB_D-" bidirectional
 			(at 115.57 81.28 180)
-			(uuid "ac6a32c2-848c-4e23-89c7-b21cc47c49a7")
+			(uuid "ef6a2772-9346-445d-9124-c8f8f82c2728")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5320,8 +6113,8 @@
 				(justify left)
 			)
 		)
-		(pin "USB_DM" bidirectional
-			(at 104.14 78.74 0)
+		(pin "USB_DN" bidirectional
+			(at 104.14 81.28 0)
 			(uuid "84404d31-5896-4e5a-a272-67b8602f055a")
 			(effects
 				(font
@@ -5331,7 +6124,7 @@
 			)
 		)
 		(pin "USB_DP" bidirectional
-			(at 104.14 81.28 0)
+			(at 104.14 78.74 0)
 			(uuid "38f021fc-b75b-404e-b58e-0a0eb3ab8e26")
 			(effects
 				(font

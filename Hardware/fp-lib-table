@@ -1,0 +1,13 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "VCAT-SuspensionBoard") (type "KiCad") (uri "/Users/ishansinghal/LHRs/VCAT/2026-2027 Telemetry/VCAT-SuspensionBoard.pretty") (options "") (descr ""))
+	(lib (name "LHRS_Power") (type "KiCad") (uri "${KIPRJMOD}/KiCAD-Sharepoint/LHRS_Power.pretty") (options "") (descr ""))
+	(lib (name "LHRS_ICs") (type "KiCad") (uri "${KIPRJMOD}/KiCAD-Sharepoint/LHRS_ICs.pretty") (options "") (descr ""))
+	(lib (name "LHRS_Logos") (type "KiCad") (uri "${KIPRJMOD}/KiCAD-Sharepoint/LHRS_Logos.pretty") (options "") (descr ""))
+	(lib (name "LHRS_Passives") (type "KiCad") (uri "${KIPRJMOD}/KiCAD-Sharepoint/LHRS_Passives.pretty") (options "") (descr ""))
+	(lib (name "LHRS_Power") (type "KiCad") (uri "${KIPRJMOD}/KiCAD-Sharepoint/LHRS_Power.pretty") (options "") (descr ""))
+	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/KiCAD-Sharepoint/LHRS_Special.pretty/Library.pretty") (options "") (descr ""))
+	(lib (name "LHRS_Special") (type "KiCad") (uri "${KIPRJMOD}/KiCAD-Sharepoint/LHRS_Special.pretty") (options "") (descr ""))
+	(lib (name "LHRS_Connectors") (type "KiCad") (uri "${KIPRJMOD}/KiCAD-Sharepoint/LHRS_Connectors.pretty") (options "") (descr ""))
+	(lib (name "TLV9002QDRQ1") (type "KiCad") (uri "${KIPRJMOD}/Footprints/TLV9002QDRQ1.pretty") (options "") (descr ""))
+)
