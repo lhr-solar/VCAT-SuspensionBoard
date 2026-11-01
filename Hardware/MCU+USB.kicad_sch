@@ -547,10 +547,6 @@
 		(uuid "31e632c3-4ea2-4fe3-85ad-c16821ab8ca2")
 	)
 	(no_connect
-		(at 104.14 68.58)
-		(uuid "430b77b9-b0a6-4675-8b7a-f052c7a7cdd9")
-	)
-	(no_connect
 		(at 66.04 62.23)
 		(uuid "504ed094-eb10-4ac5-904a-3944f79bcb73")
 	)
@@ -4178,7 +4174,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "45895acf-8c0f-4b62-9fb3-0c8f65b48b05")
 		(property "Reference" "TP14"
@@ -4879,7 +4875,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c3255d73-1ce5-4c37-81ed-6e4d0d45112d")
 		(property "Reference" "TP13"
@@ -5246,7 +5242,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d3ae343c-71d1-41b7-8dc0-8343a7bb6f67")
 		(property "Reference" "TP12"
