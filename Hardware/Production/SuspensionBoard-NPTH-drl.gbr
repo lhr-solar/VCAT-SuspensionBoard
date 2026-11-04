@@ -1,0 +1,34 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,10.0.6*%
+%TF.CreationDate,2026-11-04T01:36:03-06:00*%
+%TF.ProjectId,SuspensionBoard,53757370-656e-4736-996f-6e426f617264,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,NonPlated,1,2,NPTH,Drill*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 10.0.6) date 2026-11-04 01:36:03*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,ComponentDrill*%
+%ADD10C,0.650000*%
+%TD*%
+%TA.AperFunction,ComponentDrill*%
+%ADD11C,1.300000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,J6*%
+X155624662Y-121632325D03*
+X161404662Y-121632325D03*
+D11*
+%TO.C,J7*%
+X125313662Y-94832325D03*
+%TO.C,J5*%
+X125343662Y-77082325D03*
+%TO.C,J8*%
+X127743662Y-109632325D03*
+%TO.C,J4*%
+X138613662Y-64192325D03*
+M02*
